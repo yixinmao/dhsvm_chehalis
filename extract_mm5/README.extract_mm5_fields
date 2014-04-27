@@ -1,0 +1,37 @@
+These programs are required to take MM5 output files 
+(named, for example, mmout_d2.2002111600.f00.0000)
+and extract a subset of output fields. Then these fields are remapped
+and reformatted for input to DHSVM, which can be run with
+the MM5 = TRUE option.
+
+compile the extract_surface_fields program with the command
+f90 -free extract_surface_fields.f -o extract_surface_fields
+
+This is run with the command line specified in 
+call_extract_surface_fields_santiam.pl.
+
+compile read_field_weather program with the command:
+cc -lm read_field_weather.c reproject.sub.c byteswap.c -o read_field_weather
+
+The command line arguments for read_field_weather are:
+read_field_weather byteswap_input(0/1) byteswap_output(0/1) nrows ncols 
+	elevfile latlonfile fieldsfile headerfile 
+	outputpath outputsuffix timestep(hours)
+
+nrows and ncols correspond to the dhsvm header for the particular basin
+elevfile is the binary elevation file for the basin (as input to dhsvm)
+latlonfile is a listing of latitudes and longitudes for each pixel in the 
+target basin. This can be produced with the script makelatlonfile.aml, and
+is a text file that looks like:
+       -122.13906399         48.07949126
+       -122.13705034         48.07947615
+       -122.13503669         48.07946101
+       -122.13302305         48.07944584
+       -122.13100940         48.07943062
+       -122.12899576         48.07941538
+       -122.12698212         48.07940009
+fieldsfile is the name of the fields file created by extract_surface_fields
+headerfile is also created by the extract_surface_fields program
+the rest is obvious.
+
+
