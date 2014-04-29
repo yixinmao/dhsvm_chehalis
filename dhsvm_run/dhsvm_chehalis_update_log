@@ -1,0 +1,9 @@
+04/27/2014 - update model version from 2.1 to 3.1.2
+	1. Soil section
+		Depth Threshold: set to 0.5 for all soil types
+		Capillary Drive: set to 0.1 for all soil types
+		Mannings n: set to 0.013 for all soil types (but not used in the model since routing=conventional)
+	2. Veg section
+		Detention Fraction: set to 0 for all soil types
+		Detention Decay: set to 0 for all soil types
+	3. All binary files are changed from swap back to nonswap
