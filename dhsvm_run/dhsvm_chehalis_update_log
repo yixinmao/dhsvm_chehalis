@@ -9,11 +9,12 @@
 	3. All binary files are changed from swap back to nonswap
 
 05/27/2014 - change met input from mm5 to station
-	1. config file
+	1. config file (v3.1.2)
 		MM5 = FALSE
 		Temperature lapse rate = CONSTANT 
 		running time: 1/1/1990-00 to 12/31/2011-21
 		add met station section; delete mm5 section
+		SNOTEL = FALSE
 	2. Model initial state
 		State files of 04/03/2013-09 from ATM are used as initial state for 1/1/1990-00
 		(we should ignore the results from the first few years of running; spin-up period)
