@@ -30,10 +30,6 @@ Extent               = BASIN              # POINT or BASIN
 Gradient             = WATERTABLE 	  # TOPOGRAPHY or WATERTABLE
 Flow Routing         = NETWORK            # UNIT_HYDROGRAPH or NETWORK
 Sensible Heat Flux   = FALSE              # TRUE or FALSE
-Sediment	       = FALSE		# TRUE or FALSE
-Sediment Input File  =			# path for sediment configuration file
-Overland Routing     = CONVENTIONAL	# CONVENTIONAL or KINEMATIC
-Infiltration	       = STATIC		# Static or Dynamic
 Interpolation        = VARCRESS           # NEAREST or INVDIST or VARCRESS
 MM5                  = FALSE		  # TRUE or FALSE
 QPF                  = FALSE              # TRUE or FALSE
@@ -54,8 +50,6 @@ Temperature lapse rate = CONSTANT         # CONSTANT or VARIABLE
 Precipitation lapse rate = CONSTANT       # CONSTANT, MAP, or VARIABLE
 Cressman radius      = 10                 # in model pixels
 Cressman stations    =  4                 # number of stations
-Stream Temperature   = FALSE               # TRUE or FALSE
-Canopy Shading       = FALSE
 
 ################################################################################
 # MODEL AREA SECTION
@@ -142,6 +136,7 @@ Unit Hydrograph File =                    # path for unit hydrograph file
 ################################################################################
 [METEOROLOGY]                             # Meteorological stations
 Number of Stations = 257                   # Number of meteorological stations
+
 
 Station Name 1  = Livneh_station_1
 North Coordinate 1 = 5271100.849950
@@ -1685,6 +1680,8 @@ East Coordinate 257 = 487962.283475
 Elevation 257 = 304.300000
 Station File 257 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.257
 
+
+
 ################ MM5 ###########################################################
 # The following block only needs to be filled out if MM5 = TRUE.  In that case
 # This is the ONLY block that needs to be filled out
@@ -1701,8 +1698,8 @@ MM5 Temperature File   =
 MM5 Humidity File      = 
 MM5 Wind Speed File    = 
 MM5 Shortwave File     = 
-MM5 Longwave File      = 
-MM5 Precipitation File =
+MM5 Longwave File      =
+MM5 Precipitation File = 
 MM5 Terrain File       = 
 MM5 Temp Lapse File    = 
 
@@ -1750,8 +1747,6 @@ Soil Description       1 = SAND
 Lateral Conductivity   1 = 0.01     
 Exponential Decrease   1 = 3.0       
 Maximum Infiltration   1 = 2.0e-4      
-Depth Threshold        1 = 0.5
-Capillary Drive        1 = 0.1
 Surface Albedo         1 = 0.1       
 Number of Soil Layers  1 = 3       
 Porosity               1 =  .43 .43 .43
@@ -1763,9 +1758,6 @@ Bulk Density           1 = 1492. 1492. 1492.
 Vertical Conductivity  1 = 0.01 0.01 0.01
 Thermal Conductivity   1 = 7.114  6.923 6.923
 Thermal Capacity       1 = 1.4e6  1.4e6 1.4e6
-Mannings n             1 = 0.013         # the value must be filled out but is not used in computation
-			         # if routing = conventional
-
 
 ################ SOIL 2 #########################################################
 
@@ -1773,8 +1765,6 @@ Soil Description       2 = LOAMY SAND
 Lateral Conductivity   2 = 0.01     
 Exponential Decrease   2 = 3.0       
 Maximum Infiltration   2 = 6.0e-5      
-Depth Threshold        2 = 0.5
-Capillary Drive        2 = 0.1
 Surface Albedo         2 = 0.1       
 Number of Soil Layers  2 = 3       
 Porosity               2 =  .42 .42 .42
@@ -1786,7 +1776,6 @@ Bulk Density           2 = 1520. 1520. 1520.
 Vertical Conductivity  2 =  0.01 0.01 0.01
 Thermal Conductivity   2 = 7.114  6.923 7.0
 Thermal Capacity       2 = 1.4e6  1.4e6 1.4e6
-Mannings n             2 = 0.013
 
 ################ SOIL 3 #########################################################
 
@@ -1794,8 +1783,6 @@ Soil Description       3 = SANDY LOAM
 Lateral Conductivity   3 = 0.01     
 Exponential Decrease   3 = 3.0       
 Maximum Infiltration   3 = 3e-5      
-Depth Threshold        3 = 0.5
-Capillary Drive        3 = 0.1
 Surface Albedo         3 = 0.1       
 Number of Soil Layers  3 = 3       
 Porosity               3 =  .40 .40 .40
@@ -1807,7 +1794,6 @@ Bulk Density           3 = 1569. 1569. 1569.
 Vertical Conductivity  3 = 0.01 0.01 0.01
 Thermal Conductivity   3 = 7.114  6.923 7.0 
 Thermal Capacity       3 = 1.4e6  1.4e6 1.4e6
-Mannings n             3 = 0.013
 
 ################ SOIL 4 #########################################################
 
@@ -1815,8 +1801,6 @@ Soil Description       4 = SILTY LOAM
 Lateral Conductivity   4 = 0.01     
 Exponential Decrease   4 = 3.0       
 Maximum Infiltration   4 = 3e-5      
-Depth Threshold        4 = 0.5
-Capillary Drive        4 = 0.1
 Surface Albedo         4 = 0.1       
 Number of Soil Layers  4 = 3       
 Porosity               4 =  .46 .46 .46
@@ -1828,7 +1812,6 @@ Bulk Density           4 = 1419. 1419. 1419.
 Vertical Conductivity  4 =  0.01 0.01 0.01
 Thermal Conductivity   4 = 7.114  6.923 7.0
 Thermal Capacity       4 = 1.4e6  1.4e6 1.4e6
-Mannings n             4 = 0.013
 
 ################ SOIL 5 #########################################################
 
@@ -1836,8 +1819,6 @@ Soil Description       5 = SILT
 Lateral Conductivity   5 = 0.01     
 Exponential Decrease   5 = 3.0       
 Maximum Infiltration   5 = 3e-5      
-Depth Threshold        5 = 0.5
-Capillary Drive        5 = 0.1
 Surface Albedo         5 = 0.1       
 Number of Soil Layers  5 = 3       
 Porosity               5 =  .52 .52 .52
@@ -1849,7 +1830,6 @@ Bulk Density           5 = 1280. 1280. 1280.
 Vertical Conductivity  5 =  0.01 0.01 0.01
 Thermal Conductivity   5 = 7.114  6.923 7.0
 Thermal Capacity       5 = 1.4e6  1.4e6 1.4e6
-Mannings n             5 = 0.013
 
 ################ SOIL 6 #########################################################
 
@@ -1857,8 +1837,6 @@ Soil Description       6 = LOAM
 Lateral Conductivity   6 = 0.0005     
 Exponential Decrease   6 = 3.0       
 Maximum Infiltration   6 = 1e-5      
-Depth Threshold        6 = 0.5
-Capillary Drive        6 = 0.1
 Surface Albedo         6 = 0.1       
 Number of Soil Layers  6 = 3       
 Porosity               6 =  .43 .43 .43
@@ -1870,7 +1848,6 @@ Bulk Density           6 = 1485. 1485. 1485.
 Vertical Conductivity  6 = 0.0005 0.0005 0.0005
 Thermal Conductivity   6 = 7.114  6.923 7.0
 Thermal Capacity       6 = 1.4e6  1.4e6 1.4e6
-Mannings n             6 = 0.013
 
 ################ SOIL 7 #########################################################
 
@@ -1878,8 +1855,6 @@ Soil Description       7 = SANDY CLAY LOAM
 Lateral Conductivity   7 = 0.01     
 Exponential Decrease   7 = 3.0       
 Maximum Infiltration   7 = 1e-5      
-Depth Threshold        7 = 0.5
-Capillary Drive        7 = 0.1
 Surface Albedo         7 = 0.1       
 Number of Soil Layers  7 = 3       
 Porosity               7 =  .39 .39 .39
@@ -1891,7 +1866,6 @@ Bulk Density           7 = 1600. 1600. 1600.
 Vertical Conductivity  7 =  0.01 0.01 0.01
 Thermal Conductivity   7 = 7.114  6.923 7.0 
 Thermal Capacity       7 = 1.4e6  1.4e6 1.4e6
-Mannings n             7 = 0.013
 
 ################ SOIL 8 #########################################################
 
@@ -1899,8 +1873,6 @@ Soil Description       8 = SILTY CLAY LOAM
 Lateral Conductivity   8 = 0.01     
 Exponential Decrease   8 = 3.0       
 Maximum Infiltration   8 = 3e-5      
-Depth Threshold        8 = 0.5
-Capillary Drive        8 = 0.1
 Surface Albedo         8 = 0.1       
 Number of Soil Layers  8 = 3       
 Porosity               8 =  .48 .48 .48
@@ -1912,7 +1884,6 @@ Bulk Density           8 = 1381. 1381. 1381.
 Vertical Conductivity  8 =  0.01 0.01 0.01
 Thermal Conductivity   8 = 7.114  6.923 7.0
 Thermal Capacity       8 = 1.4e6  1.4e6 1.4e6
-Mannings n             8 = 0.013
 
 ################ SOIL 9 #########################################################
 
@@ -1920,8 +1891,6 @@ Soil Description       9 = CLAY LOAM
 Lateral Conductivity   9 = 0.01     
 Exponential Decrease   9 = 3.0       
 Maximum Infiltration   9 = 1e-5      
-Depth Threshold        9 = 0.5
-Capillary Drive        9 = 0.1
 Surface Albedo         9 = 0.1       
 Number of Soil Layers  9 = 3       
 Porosity               9 =  .46 .46 .46
@@ -1933,7 +1902,6 @@ Bulk Density           9 = 1600. 1600. 1600.
 Vertical Conductivity  9 =  0.01 0.01 0.01
 Thermal Conductivity   9 = 7.114  6.923 7.0
 Thermal Capacity       9 = 1.4e6  1.4e6 1.4e6
-Mannings n             9 = 0.013
 
 ################ SOIL 10 #########################################################
 
@@ -1941,8 +1909,6 @@ Soil Description       10 = SANDY CLAY
 Lateral Conductivity   10 = 0.01     
 Exponential Decrease   10 = 3.0       
 Maximum Infiltration   10 = 1e-5      
-Depth Threshold        10 = 0.5
-Capillary Drive        10 = 0.1
 Surface Albedo         10 = 0.1       
 Number of Soil Layers  10 = 3       
 Porosity               10 =  .41 .41 .41 
@@ -1954,7 +1920,6 @@ Bulk Density           10 = 1565. 1565. 1565.
 Vertical Conductivity  10 =  0.01 0.01 0.01
 Thermal Conductivity   10 = 7.114  6.923 7.0
 Thermal Capacity       10 = 1.4e6  1.4e6 1.4e6
-Mannings n             10 = 0.013
 
 ################ SOIL 11 #########################################################
 
@@ -1962,8 +1927,6 @@ Soil Description       11 = SILTY CLAY
 Lateral Conductivity   11 = 0.01     
 Exponential Decrease   11 = 3.0       
 Maximum Infiltration   11 = 1e-5      
-Depth Threshold        11 = 0.5
-Capillary Drive        11 = 0.1
 Surface Albedo         11 = 0.1       
 Number of Soil Layers  11 = 3       
 Porosity               11 =  .49 .49 .49
@@ -1975,7 +1938,6 @@ Bulk Density           11 = 1346. 1346. 1346.
 Vertical Conductivity  11 =  0.01 0.01 0.01 
 Thermal Conductivity   11 = 7.114  6.923 7.0
 Thermal Capacity       11 = 1.4e6  1.4e6 1.4e6
-Mannings n             11 = 0.013
 
 ################ SOIL 12 #########################################################
 
@@ -1983,8 +1945,6 @@ Soil Description       12 = CLAY
 Lateral Conductivity   12 = 0.01     
 Exponential Decrease   12 = 3.0       
 Maximum Infiltration   12 = 1e-5      
-Depth Threshold        12 = 0.5
-Capillary Drive        12 = 0.1
 Surface Albedo         12 = 0.1       
 Number of Soil Layers  12 = 3       
 Porosity               12 =  .47 .47 .47
@@ -1996,7 +1956,6 @@ Bulk Density           12 = 1394. 1394. 1394
 Vertical Conductivity  12 =  0.01 0.01 0.01
 Thermal Conductivity   12 = 7.114  6.923 7.0
 Thermal Capacity       12 = 1.4e6  1.4e6 1.4e6
-Mannings n             12 = 0.013
 
 ################ SOIL 13 #########################################################
 
@@ -2004,8 +1963,6 @@ Soil Description       13 = ORGANIC (as loam)
 Lateral Conductivity   13 = 0.01     
 Exponential Decrease   13 = 3.0       
 Maximum Infiltration   13 = 1e-5      
-Depth Threshold        13 = 0.5
-Capillary Drive        13 = 0.1
 Surface Albedo         13 = 0.1       
 Number of Soil Layers  13 = 3       
 Porosity               13 =  .43 .43 .43
@@ -2017,7 +1974,6 @@ Bulk Density           13 = 1485. 1485. 1485.
 Vertical Conductivity  13 =  0.01 0.01 0.01 
 Thermal Conductivity   13 = 7.114  6.923 7.0
 Thermal Capacity       13 = 1.4e6  1.4e6 1.4e6
-Mannings n             13 = 0.013
 
 ################ SOIL 14 #########################################################
 
@@ -2025,8 +1981,6 @@ Soil Description       14 = WATER (as clay)
 Lateral Conductivity   14 = 0.01     
 Exponential Decrease   14 = 3.0       
 Maximum Infiltration   14 = 1e-5      
-Depth Threshold        14 = 0.5
-Capillary Drive        14 = 0.1
 Surface Albedo         14 = 0.1       
 Number of Soil Layers  14 = 3       
 Porosity               14 =  .47 .47 .47
@@ -2038,7 +1992,6 @@ Bulk Density           14 = 1394. 1394. 1394.
 Vertical Conductivity  14 =  0.01 0.01 0.01
 Thermal Conductivity   14 = 7.114  6.923 7.0
 Thermal Capacity       14 = 1.4e6  1.4e6 1.4e6
-Mannings n             14 = 0.013
 
 ################ SOIL 15 #########################################################
 
@@ -2046,8 +1999,6 @@ Soil Description       15 = BEDROCK
 Lateral Conductivity   15 = 0.01
 Exponential Decrease   15 = 3.0       
 Maximum Infiltration   15 = 1e-5      
-Depth Threshold        15 = 0.5
-Capillary Drive        15 = 0.1
 Surface Albedo         15 = 0.1       
 Number of Soil Layers  15 = 3       
 Porosity               15 =  .1 .1 .1
@@ -2059,7 +2010,6 @@ Bulk Density           15 = 1650. 1650. 1650.0
 Vertical Conductivity  15 =  0.01 0.01 0.01
 Thermal Conductivity   15 = 7.114  6.923 7.0 
 Thermal Capacity       15 = 1.4e6  1.4e6 1.4e6
-Mannings n             15 = 0.013
 
 ################ SOIL 16 #########################################################
 
@@ -2067,8 +2017,6 @@ Soil Description       16 = OTHER  (as SCL)
 Lateral Conductivity   16 = 0.01     
 Exponential Decrease   16 = 3.0       
 Maximum Infiltration   16 = 1e-5      
-Depth Threshold        16 = 0.5
-Capillary Drive        16 = 0.1
 Surface Albedo         16 = 0.1       
 Number of Soil Layers  16 = 3       
 Porosity               16 =  .39 .39 .39
@@ -2080,7 +2028,6 @@ Bulk Density           16 = 1600. 1600. 1600.
 Vertical Conductivity  16 =  0.01 0.01 0.01
 Thermal Conductivity   16 = 7.114  6.923 7.0
 Thermal Capacity       16 = 1.4e6  1.4e6 1.4e6
-Mannings n             16 = 0.013
 
 ################ SOIL 17 #########################################################
 
@@ -2088,8 +2035,6 @@ Soil Description       17 = MUCK
 Lateral Conductivity   17 = 0.01
 Exponential Decrease   17 = 3.0
 Maximum Infiltration   17 = 1e-5
-Depth Threshold        17 = 0.5
-Capillary Drive        17 = 0.1
 Surface Albedo         17 = 0.23
 Number of Soil Layers  17 = 3
 Porosity               17 =  .47 .47 .47
@@ -2101,7 +2046,6 @@ Bulk Density           17 = 1600. 1600. 1600
 Vertical Conductivity  17 =  0.05 0.05 0.05
 Thermal Conductivity   17 = 7.114  6.923 7.0
 Thermal Capacity       17 = 1.4e6  1.4e6 1.4e6
-Mannings n             17 = 0.013
 
 ################ SOIL 18 #########################################################
 
@@ -2109,8 +2053,6 @@ Soil Description       18 = TALUS
 Lateral Conductivity   18 = 0.01
 Exponential Decrease   18 = 3.0
 Maximum Infiltration   18 = 2.0e-4
-Depth Threshold        18 = 0.5
-Capillary Drive        18 = 0.1
 Surface Albedo         18 = 0.1
 Number of Soil Layers  18 = 3
 Porosity               18 =  .80 .80 .80
@@ -2122,7 +2064,6 @@ Bulk Density           18 = 1492. 1492. 1492.
 Vertical Conductivity  18 = 0.01 0.01 0.01
 Thermal Conductivity   18 = 7.114  6.923 6.923
 Thermal Capacity       18 = 1.4e6  1.4e6 1.4e6
-Mannings n             18 = 0.013
 
 
 ################################################################################
@@ -2136,8 +2077,6 @@ Number of Vegetation Types = 21           # Number of different vegetation types
 ################ VEGETATION 1 ##################################################
 Vegetation Description   1 = Evergreen Needleleaf  
 Impervious Fraction      1 = 0.0
-Detention Fraction       1 = 0
-Detention Decay          1 = 0
 Overstory Present        1 = TRUE  
 Understory Present       1 = TRUE    
 Fractional Coverage      1 = 0.9	   
@@ -2145,10 +2084,6 @@ Hemi Fract Coverage      1 = 0.9
 Trunk Space              1 = 0.5       
 Aerodynamic Attenuation  1 = 2.0       
 Radiation Attenuation    1 = 0.15       
-Clumping Factor          1 =		/* Required only if Canopy Radiation Attenuation == VARIABLE*/
-Leaf Angle A             1 =		/* Required only if Canopy Radiation Attenuation == VARIABLE*/
-Leaf Angle B             1 =		/* Required only if Canopy Radiation Attenuation == VARIABLE*/
-Scattering Parameter     1 =		/* Required only if Canopy Radiation Attenuation == VARIABLE*/
 Max Snow Int Capacity    1 = 0.04 
 Snow Interception Eff    1 = 0.6
 Mass Release Drip Ratio  1 = 0.4
@@ -2169,8 +2104,6 @@ Understory Root Fraction 1 = 0.40 0.60 0.00
 
 Vegetation Description   2 = Evergreen Broadleaf 
 Impervious Fraction      2 = 0.0
-Detention Fraction       2 = 0
-Detention Decay          2 = 0
 Overstory Present        2 = TRUE     
 Understory Present       2 = TRUE   
 Fractional Coverage      2 = 0.9    
@@ -2178,10 +2111,6 @@ Hemi Fract Coverage      2 = 0.9
 Trunk Space              2 = .5 
 Aerodynamic Attenuation  2 = 1.5
 Radiation Attenuation    2 = 0.2
-Clumping Factor          2 =
-Leaf Angle A             2 =
-Leaf Angle B             2 =
-Scattering Parameter     2 =
 Max Snow Int Capacity    2 = 0.003
 Snow Interception Eff    2 = 0.6
 Mass Release Drip Ratio  2 = 0.4
@@ -2202,8 +2131,6 @@ Understory Root Fraction 2 = 0.40 0.60 0.00
    
 Vegetation Description   3 = Deciduous Needleleaf  
 Impervious Fraction      3 = 0.0
-Detention Fraction       3 = 0
-Detention Decay          3 = 0
 Overstory Present        3 = TRUE  
 Understory Present       3 = TRUE    
 Fractional Coverage      3 = 0.9	   
@@ -2211,10 +2138,6 @@ Hemi Fract Coverage      3 = 0.9
 Trunk Space              3 = 0.5       
 Aerodynamic Attenuation  3 = 2.0       
 Radiation Attenuation    3 = 0.15       
-Clumping Factor          3 =
-Leaf Angle A             3 =
-Leaf Angle B             3 =
-Scattering Parameter     3 =
 Max Snow Int Capacity    3 = 0.04 
 Snow Interception Eff    3 = 0.6
 Mass Release Drip Ratio  3 = 0.4
@@ -2236,8 +2159,6 @@ Understory Root Fraction 3 = 0.40 0.60 0.00
 
 Vegetation Description   4 = Deciduous Broadleaf
 Impervious Fraction      4 = 0.0
-Detention Fraction       4 = 0
-Detention Decay          4 = 0
 Overstory Present        4 = TRUE     
 Understory Present       4 = TRUE   
 Fractional Coverage      4 = 0.9    
@@ -2245,10 +2166,6 @@ Hemi Fract Coverage      4 = 0.9
 Trunk Space              4 = 0.5 
 Aerodynamic Attenuation  4 = 1.5
 Radiation Attenuation    4 = 0.2
-Clumping Factor          4 =
-Leaf Angle A             4 =
-Leaf Angle B             4 =
-Scattering Parameter     4 =
 Max Snow Int Capacity    4 = 0.003
 Snow Interception Eff    4 = 0.6
 Mass Release Drip Ratio  4 = 0.4
@@ -2269,8 +2186,6 @@ Understory Root Fraction 4 = 0.40 0.60 0.00
 
 Vegetation Description   5 = Mixed Forest
 Impervious Fraction      5 = 0.0
-Detention Fraction       5 = 0
-Detention Decay          5 = 0
 Overstory Present        5 = TRUE       
 Understory Present       5 = TRUE             
 Fractional Coverage      5 = 0.8         
@@ -2278,10 +2193,6 @@ Hemi Fract Coverage      5 = 0.8
 Trunk Space              5 = 0.4           
 Aerodynamic Attenuation  5 = 0.5          
 Radiation Attenuation    5 = 0.2         
-Clumping Factor          5 =
-Leaf Angle A             5 =
-Leaf Angle B             5 =
-Scattering Parameter     5 =
 Max Snow Int Capacity    5 = 0.003		  
 Snow Interception Eff    5 = 0.6              
 Mass Release Drip Ratio  5 = 0.4             
@@ -2302,8 +2213,6 @@ Understory Root Fraction 5 = 0.40 0.60 0.00
 
 Vegetation Description   6 = Woodland 
 Impervious Fraction      6 = 0.0
-Detention Fraction       6 = 0
-Detention Decay          6 = 0
 Overstory Present        6 = TRUE       
 Understory Present       6 = TRUE             
 Fractional Coverage      6 = 0.8         
@@ -2311,10 +2220,6 @@ Hemi Fract Coverage      6 = 0.8
 Trunk Space              6 = 0.4           
 Aerodynamic Attenuation  6 = 0.5          
 Radiation Attenuation    6 = 0.2         
-Clumping Factor          6 =
-Leaf Angle A             6 =
-Leaf Angle B             6 =
-Scattering Parameter     6 =
 Max Snow Int Capacity    6 = 0.003		  
 Snow Interception Eff    6 = 0.6              
 Mass Release Drip Ratio  6 = 0.4             
@@ -2335,8 +2240,6 @@ Understory Root Fraction 6 = 0.40 0.60 0.00
 
 Vegetation Description   7 = Wooded Grassland
 Impervious Fraction      7 = 0.0
-Detention Fraction       7 = 0
-Detention Decay          7 = 0
 Overstory Present        7 = TRUE       
 Understory Present       7 = TRUE             
 Fractional Coverage      7 = 0.5         
@@ -2344,10 +2247,6 @@ Hemi Fract Coverage      7 = 0.5
 Trunk Space              7 = 0.4           
 Aerodynamic Attenuation  7 = 0.3          
 Radiation Attenuation    7 = 0.1         
-Clumping Factor          7 =
-Leaf Angle A             7 =
-Leaf Angle B             7 =
-Scattering Parameter     7 =
 Max Snow Int Capacity    7 = 0.003		  
 Snow Interception Eff    7 = 0.6              
 Mass Release Drip Ratio  7 = 0.4             
@@ -2368,8 +2267,6 @@ Understory Root Fraction 7 = 0.40 0.60 0.00
 
 Vegetation Description   8 = Closed Shrub 
 Impervious Fraction      8 = 0.0
-Detention Fraction       8 = 0
-Detention Decay          8 = 0
 Overstory Present        8 = FALSE        
 Understory Present       8 = TRUE             
 Fractional Coverage      8 =          
@@ -2377,10 +2274,6 @@ Hemi Fract Coverage      8 =
 Trunk Space              8 =            
 Aerodynamic Attenuation  8 =           
 Radiation Attenuation    8 =          
-Clumping Factor          8 =
-Leaf Angle A             8 =
-Leaf Angle B             8 =
-Scattering Parameter     8 =
 Max Snow Int Capacity    8 =		  
 Snow Interception Eff    8 =               
 Mass Release Drip Ratio  8 =              
@@ -2401,8 +2294,6 @@ Understory Root Fraction 8 = 0.40 0.60 0.00
 
 Vegetation Description   9 = Open Shrub
 Impervious Fraction      9 = 0.0
-Detention Fraction       9 = 0
-Detention Decay          9 = 0
 Overstory Present        9 = FALSE        
 Understory Present       9 = TRUE             
 Fractional Coverage      9 =          
@@ -2410,10 +2301,6 @@ Hemi Fract Coverage      9 =
 Trunk Space              9 =            
 Aerodynamic Attenuation  9 =           
 Radiation Attenuation    9 =          
-Clumping Factor          9 =
-Leaf Angle A             9 =
-Leaf Angle B             9 =
-Scattering Parameter     9 =
 Max Snow Int Capacity    9 =		  
 Snow Interception Eff    9 =               
 Mass Release Drip Ratio  9 =              
@@ -2434,8 +2321,6 @@ Understory Root Fraction 9 =  0.40 0.60 0.00
 
 Vegetation Description   10 = Grassland   
 Impervious Fraction      10 = 0.0
-Detention Fraction       10 = 0
-Detention Decay          10 = 0
 Overstory Present        10 = FALSE        
 Understory Present       10 = TRUE             
 Fractional Coverage      10 =          
@@ -2443,10 +2328,6 @@ Hemi Fract Coverage      10 =
 Trunk Space              10 =            
 Aerodynamic Attenuation  10 =           
 Radiation Attenuation    10 =          
-Clumping Factor          10 =
-Leaf Angle A             10 =
-Leaf Angle B             10 =
-Scattering Parameter     10 =
 Max Snow Int Capacity    10 =		  
 Snow Interception Eff    10 =               
 Mass Release Drip Ratio  10 =              
@@ -2467,8 +2348,6 @@ Understory Root Fraction 10 = 0.40 0.60 0.00
 
 Vegetation Description   11 = Cropland 
 Impervious Fraction      11 = 0.0
-Detention Fraction       11 = 0
-Detention Decay          11 = 0
 Overstory Present        11 = FALSE        
 Understory Present       11 = TRUE            
 Fractional Coverage      11 =        
@@ -2476,10 +2355,6 @@ Hemi Fract Coverage      11 =
 Trunk Space              11 =             
 Aerodynamic Attenuation  11 =         
 Radiation Attenuation    11 = 
-Clumping Factor          11 =
-Leaf Angle A             11 =
-Leaf Angle B             11 =
-Scattering Parameter     11 =
 Max Snow Int Capacity    11 = 
 Snow Interception Eff    11 = 
 Mass Release Drip Ratio  11 = 
@@ -2500,8 +2375,6 @@ Understory Root Fraction 11 = 0.40 0.60 0.00
 
 Vegetation Description   12 = Bare
 Impervious Fraction      12 = 0.0
-Detention Fraction       12 = 0
-Detention Decay          12 = 0
 Overstory Present        12 = FALSE        
 Understory Present       12 = FALSE            
 Fractional Coverage      12 = 
@@ -2509,10 +2382,6 @@ Hemi Fract Coverage      12 =
 Trunk Space              12 = 
 Aerodynamic Attenuation  12 = 
 Radiation Attenuation    12 = 
-Clumping Factor          12 =
-Leaf Angle A             12 =
-Leaf Angle B             12 =
-Scattering Parameter     12 =
 Max Snow Int Capacity    12 = 
 Snow Interception Eff    12 = 
 Mass Release Drip Ratio  12 = 
@@ -2533,8 +2402,6 @@ Understory Root Fraction 12 = 0.0 0.0 0.00
 
 Vegetation Description   13 = Urban 
 Impervious Fraction      13 = 0.0
-Detention Fraction       13 = 0
-Detention Decay          13 = 0
 Overstory Present        13 = FALSE        
 Understory Present       13 = TRUE             
 Fractional Coverage      13 = 
@@ -2542,10 +2409,6 @@ Hemi Fract Coverage      13 =
 Trunk Space              13 = 
 Aerodynamic Attenuation  13 = 
 Radiation Attenuation    13 = 
-Clumping Factor          13 =
-Leaf Angle A             13 =
-Leaf Angle B             13 =
-Scattering Parameter     13 =
 Max Snow Int Capacity    13 = 
 Snow Interception Eff    13 = 
 Mass Release Drip Ratio  13 = 
@@ -2566,8 +2429,6 @@ Understory Root Fraction 13 = 0.40 0.60 0.00
 
 Vegetation Description   14 = Water 
 Impervious Fraction      14 = 0.0
-Detention Fraction       14 = 0
-Detention Decay          14 = 0
 Overstory Present        14 = FALSE        
 Understory Present       14 = FALSE            
 Fractional Coverage      14 = 
@@ -2575,10 +2436,6 @@ Hemi Fract Coverage      14 =
 Trunk Space              14 = 
 Aerodynamic Attenuation  14 = 
 Radiation Attenuation    14 = 
-Clumping Factor          14 =
-Leaf Angle A             14 =
-Leaf Angle B             14 =
-Scattering Parameter     14 =
 Max Snow Int Capacity    14 = 
 Snow Interception Eff    14 = 
 Mass Release Drip Ratio  14 = 
@@ -2599,8 +2456,6 @@ Understory Root Fraction 14 = 0.00 0.00 0.00
 
 Vegetation Description   15 = Coastal Conifer Forest
 Impervious Fraction      15 = 0.0
-Detention Fraction       15 = 0
-Detention Decay          15 = 0
 Overstory Present        15 = TRUE        
 Understory Present       15 = TRUE             
 Fractional Coverage      15 = 0.9         
@@ -2608,10 +2463,6 @@ Hemi Fract Coverage      15 = 0.9
 Trunk Space              15 = .5           
 Aerodynamic Attenuation  15 = 2.0          
 Radiation Attenuation    15 = 0.15         
-Clumping Factor          15 =
-Leaf Angle A             15 =
-Leaf Angle B             15 =
-Scattering Parameter     15 =
 Max Snow Int Capacity    15 = 0.040		  
 Snow Interception Eff    15 = 0.6              
 Mass Release Drip Ratio  15 = 0.4            
@@ -2632,8 +2483,6 @@ Understory Root Fraction 15 =  0.40 0.60 0.00
 
 Vegetation Description   16 = Xeric Conif Forest (Dry)
 Impervious Fraction      16 = 0.0
-Detention Fraction       16 = 0
-Detention Decay          16 = 0
 Overstory Present        16 = TRUE        
 Understory Present       16 = TRUE             
 Fractional Coverage      16 = 0.9         
@@ -2641,10 +2490,6 @@ Hemi Fract Coverage      16 = 0.9
 Trunk Space              16 = .5           
 Aerodynamic Attenuation  16 = 2.0          
 Radiation Attenuation    16 = 0.15         
-Clumping Factor          16 =
-Leaf Angle A             16 =
-Leaf Angle B             16 =
-Scattering Parameter     16 =
 Max Snow Int Capacity    16 = 0.040		  
 Snow Interception Eff    16 = 0.6              
 Mass Release Drip Ratio  16 = 0.4            
@@ -2666,8 +2511,6 @@ Understory Root Fraction 16 =  0.40 0.60 0.00
 
 Vegetation Description   17 = Mesic Conif Forest (Wet)    
 Impervious Fraction      17 = 0.0
-Detention Fraction       17 = 0
-Detention Decay          17 = 0
 Overstory Present        17 = TRUE        
 Understory Present       17 = TRUE             
 Fractional Coverage      17 = 0.9         
@@ -2675,10 +2518,6 @@ Hemi Fract Coverage      17 = 0.9
 Trunk Space              17 = .5           
 Aerodynamic Attenuation  17 = 2.0          
 Radiation Attenuation    17 = 0.15         
-Clumping Factor          17 =
-Leaf Angle A             17 =
-Leaf Angle B             17 =
-Scattering Parameter     17 =
 Max Snow Int Capacity    17 = 0.040		  
 Snow Interception Eff    17 = 0.6              
 Mass Release Drip Ratio  17 = 0.4            
@@ -2699,8 +2538,6 @@ Understory Root Fraction 17 =  0.40 0.60 0.00
 
 Vegetation Description   18 = Subalpine Conif Forest
 Impervious Fraction      18 = 0.0
-Detention Fraction       18 = 0
-Detention Decay          18 = 0
 Overstory Present        18 = TRUE        
 Understory Present       18 = TRUE             
 Fractional Coverage      18 = 0.9         
@@ -2708,10 +2545,6 @@ Hemi Fract Coverage      18 = 0.9
 Trunk Space              18 = .5           
 Aerodynamic Attenuation  18 = 2.0          
 Radiation Attenuation    18 = 0.15         
-Clumping Factor          18 =
-Leaf Angle A             18 =
-Leaf Angle B             18 =
-Scattering Parameter     18 =
 Max Snow Int Capacity    18 = 0.040		  
 Snow Interception Eff    18 = 0.6              
 Mass Release Drip Ratio  18 = 0.4            
@@ -2732,8 +2565,6 @@ Understory Root Fraction 18 =  0.40 0.60 0.00
 
 Vegetation Description   19 = Alpine Meadow
 Impervious Fraction      19 = 0.0
-Detention Fraction       19 = 0
-Detention Decay          19 = 0
 Overstory Present        19 = FALSE       
 Understory Present       19 = TRUE            
 Fractional Coverage      19 =          
@@ -2741,10 +2572,6 @@ Hemi Fract Coverage      19 =
 Trunk Space              19 =            
 Aerodynamic Attenuation  19 =           
 Radiation Attenuation    19 =          
-Clumping Factor          19 =
-Leaf Angle A             19 =
-Leaf Angle B             19 =
-Scattering Parameter     19 =
 Max Snow Int Capacity    19 =		  
 Snow Interception Eff    19 =               
 Mass Release Drip Ratio  19 =              
@@ -2765,8 +2592,6 @@ Understory Root Fraction 19 = 0.0 0.0 0.0
 
 Vegetation Description   20 = Ice
 Impervious Fraction      20 = 0.0
-Detention Fraction       20 = 0
-Detention Decay          20 = 0
 Overstory Present        20 = FALSE       
 Understory Present       20 = FALSE             
 Fractional Coverage      20 =          
@@ -2774,10 +2599,6 @@ Hemi Fract Coverage      20 =
 Trunk Space              20 =            
 Aerodynamic Attenuation  20 =           
 Radiation Attenuation    20 =          
-Clumping Factor          20 =
-Leaf Angle A             20 =
-Leaf Angle B             20 =
-Scattering Parameter     20 =
 Max Snow Int Capacity    20 =		  
 Snow Interception Eff    20 =               
 Mass Release Drip Ratio  20 =              
@@ -2798,8 +2619,6 @@ Understory Root Fraction 20 = 0.0 0.0 0.0
 
 Vegetation Description   21 = SNOTEL  
 Impervious Fraction      21 = 0.0
-Detention Fraction       21 = 0
-Detention Decay          21 = 0
 Overstory Present        21 = TRUE        
 Understory Present       21 = TRUE             
 Fractional Coverage      21 = 0.1         
@@ -2807,10 +2626,6 @@ Hemi Fract Coverage      21 = 0.1
 Trunk Space              21 = .5           
 Aerodynamic Attenuation  21 = 2.0          
 Radiation Attenuation    21 = 0.05         
-Clumping Factor          21 =
-Leaf Angle A             21 =
-Leaf Angle B             21 =
-Scattering Parameter     21 =
 Max Snow Int Capacity    21 = 0.003
 Snow Interception Eff    21 = 0.6              
 Mass Release Drip Ratio  21 = 0.4            
@@ -2833,7 +2648,7 @@ Understory Root Fraction 21 =  0.40 0.60 0.00
 # MODEL OUTPUT SECTION
 ################################################################################
 [OUTPUT]                                  # Information what to output when
-Output Directory           = /nfs/juniper/usr1/ymao/dhsvm_chehalis/dhsvm_run/output/RTd3/
+Output Directory           = /nfs/juniper/usr1/ymao/dhsvm_chehalis/dhsvm_run/output/RTd3_v2.1/
 Initial State Directory    = /nfs/juniper/usr1/ymao/dhsvm_chehalis/dhsvm_run/modelstate/RTd3/
 
 ################ PIXEL DUMPS ###################################################
@@ -2875,13 +2690,12 @@ State Date 1 = 12/31/2006-09
 State Date 2 = 12/31/2009-09 
 State Date 3 = 12/31/2011-09 
 
-
 #######MODEL MAP DUMPS ###############
-Number of Map Variables = 3 
- 
-Map Variable      1 = 501  # soil moisture 
+Number of Map Variables = 3
+
+Map Variable      1 = 501  # soil moisture
 Map Layer         1 = 1
-Number of Maps    1 = 12 
+Number of Maps    1 = 12
 
 Map Date 1        1 = 03/01/2006-00
 Map Date 2        1 = 08/01/2006-00
@@ -2896,10 +2710,9 @@ Map Date 10        1 = 08/01/2010-00
 Map Date 11        1 = 03/01/2011-00
 Map Date 12        1 = 08/01/2011-00
 
-
 Map Variable      2 = 404  # SWE
 Map Layer         2 = 1
-Number of Maps    2 = 6 
+Number of Maps    2 = 6
 
 Map Date 1        2 = 04/01/2006-00
 Map Date 2        2 = 04/01/2007-00
@@ -2908,9 +2721,9 @@ Map Date 4        2 = 04/01/2009-00
 Map Date 5        2 = 04/01/2010-00
 Map Date 6        2 = 04/01/2011-00
 
-Map Variable      3 = 101  # Tot ET 
+Map Variable      3 = 101  # Tot ET
 Map Layer         3 = 1
-Number of Maps    3 = 12 
+Number of Maps    3 = 12
 
 Map Date 1        3 = 03/01/2006-00
 Map Date 2        3 = 08/01/2006-00
@@ -2924,6 +2737,7 @@ Map Date 9        3 = 03/01/2010-00
 Map Date 10        3 = 08/01/2010-00
 Map Date 11        3 = 03/01/2011-00
 Map Date 12        3 = 08/01/2011-00
+
 
 ################ MODEL IMAGES ##################################################
 
