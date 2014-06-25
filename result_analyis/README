@@ -1,0 +1,16 @@
+results_v2.1_nonswap
+	DHSVM version 2.1;
+	file format: BIN
+	all input files directly from ATM
+
+results_v3.1.2
+	Update DHSVM version to v3.1.2;
+	file format: BIN
+	all input files directly from ATM
+
+
+
+analysis_scripts
+results_compare.py
+	Compare results from two runs
+

@@ -34,7 +34,7 @@ Sediment	       = FALSE		# TRUE or FALSE
 Sediment Input File  =			# path for sediment configuration file
 Overland Routing     = CONVENTIONAL	# CONVENTIONAL or KINEMATIC
 Infiltration	       = STATIC		# Static or Dynamic
-Interpolation        = VARCRESS           # NEAREST or INVDIST or VARCRESS
+Interpolation        = NEAREST           # NEAREST or INVDIST or VARCRESS
 MM5                  = FALSE		  # TRUE or FALSE
 QPF                  = FALSE              # TRUE or FALSE
 PRISM                = FALSE              # TRUE or FALSE
@@ -147,1543 +147,1543 @@ Station Name 1  = Livneh_station_1
 North Coordinate 1 = 5271100.849950
 East Coordinate 1 = 455360.994167
 Elevation 1 = 839.070000
-Station File 1 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.1
+Station File 1 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.1
 
 Station Name 2  = Livneh_station_2
 North Coordinate 2 = 5271066.786810
 East Coordinate 2 = 460059.824192
 Elevation 2 = 930.360000
-Station File 2 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.2
+Station File 2 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.2
 
 Station Name 3  = Livneh_station_3
 North Coordinate 3 = 5264192.675640
 East Coordinate 3 = 450603.451525
 Elevation 3 = 634.460000
-Station File 3 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.3
+Station File 3 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.3
 
 Station Name 4  = Livneh_station_4
 North Coordinate 4 = 5264154.820190
 East Coordinate 4 = 455307.869315
 Elevation 4 = 730.980000
-Station File 4 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.4
+Station File 4 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.4
 
 Station Name 5  = Livneh_station_5
 North Coordinate 5 = 5264120.750510
 East Coordinate 5 = 460012.291726
 Elevation 5 = 809.940000
-Station File 5 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.5
+Station File 5 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.5
 
 Station Name 6  = Livneh_station_6
 North Coordinate 6 = 5264090.466520
 East Coordinate 6 = 464716.718270
 Elevation 6 = 871.360000
-Station File 6 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.6
+Station File 6 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.6
 
 Station Name 7  = Livneh_station_7
 North Coordinate 7 = 5257288.378170
 East Coordinate 7 = 445834.793756
 Elevation 7 = 560.860000
-Station File 7 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.7
+Station File 7 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.7
 
 Station Name 8  = Livneh_station_8
 North Coordinate 8 = 5257246.729070
 East Coordinate 8 = 450544.793416
 Elevation 8 = 614.750000
-Station File 8 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.8
+Station File 8 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.8
 
 Station Name 9  = Livneh_station_9
 North Coordinate 9 = 5257208.866520
 East Coordinate 9 = 455254.798061
 Elevation 9 = 660.370000
-Station File 9 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.9
+Station File 9 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.9
 
 Station Name 10  = Livneh_station_10
 North Coordinate 10 = 5257174.790460
 East Coordinate 10 = 459964.807216
 Elevation 10 = 700.650000
-Station File 10 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.10
+Station File 10 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.10
 
 Station Name 11  = Livneh_station_11
 North Coordinate 11 = 5257144.500810
 East Coordinate 11 = 464674.820406
 Elevation 11 = 735.580000
-Station File 11 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.11
+Station File 11 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.11
 
 Station Name 12  = Livneh_station_12
 North Coordinate 12 = 5257117.997500
 East Coordinate 12 = 469384.837155
 Elevation 12 = 727.100000
-Station File 12 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.12
+Station File 12 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.12
 
 Station Name 13  = Livneh_station_13
 North Coordinate 13 = 5257095.280480
 East Coordinate 13 = 474094.856989
 Elevation 13 = 675.190000
-Station File 13 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.13
+Station File 13 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.13
 
 Station Name 14  = Livneh_station_14
 North Coordinate 14 = 5250342.515130
 East Coordinate 14 = 445770.613624
 Elevation 14 = 471.760000
-Station File 14 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.14
+Station File 14 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.14
 
 Station Name 15  = Livneh_station_15
 North Coordinate 15 = 5250300.858420
 East Coordinate 15 = 450486.194615
 Elevation 15 = 523.950000
-Station File 15 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.15
+Station File 15 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.15
 
 Station Name 16  = Livneh_station_16
 North Coordinate 16 = 5250262.988970
 East Coordinate 16 = 455201.780468
 Elevation 16 = 549.130000
-Station File 16 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.16
+Station File 16 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.16
 
 Station Name 17  = Livneh_station_17
 North Coordinate 17 = 5250228.906690
 East Coordinate 17 = 459917.370720
 Elevation 17 = 571.720000
-Station File 17 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.17
+Station File 17 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.17
 
 Station Name 18  = Livneh_station_18
 North Coordinate 18 = 5250198.611510
 East Coordinate 18 = 464632.964907
 Elevation 18 = 591.720000
-Station File 18 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.18
+Station File 18 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.18
 
 Station Name 19  = Livneh_station_19
 North Coordinate 19 = 5250172.103360
 East Coordinate 19 = 469348.562567
 Elevation 19 = 560.840000
-Station File 19 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.19
+Station File 19 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.19
 
 Station Name 20  = Livneh_station_20
 North Coordinate 20 = 5250149.382200
 East Coordinate 20 = 474064.163235
 Elevation 20 = 479.080000
-Station File 20 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.20
+Station File 20 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.20
 
 Station Name 21  = Livneh_station_21
 North Coordinate 21 = 5250130.447970
 East Coordinate 21 = 478779.766449
 Elevation 21 = 383.620000
-Station File 21 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.21
+Station File 21 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.21
 
 Station Name 22  = Livneh_station_22
 North Coordinate 22 = 5243442.179960
 East Coordinate 22 = 440985.347047
 Elevation 22 = 282.130000
-Station File 22 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.22
+Station File 22 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.22
 
 Station Name 23  = Livneh_station_23
 North Coordinate 23 = 5243396.727840
 East Coordinate 23 = 445706.498523
 Elevation 23 = 323.710000
-Station File 23 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.23
+Station File 23 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.23
 
 Station Name 24  = Livneh_station_24
 North Coordinate 24 = 5243355.063730
 East Coordinate 24 = 450427.655190
 Elevation 24 = 362.080000
-Station File 24 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.24
+Station File 24 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.24
 
 Station Name 25  = Livneh_station_25
 North Coordinate 25 = 5243317.187540
 East Coordinate 25 = 455148.816597
 Elevation 25 = 397.250000
-Station File 25 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.25
+Station File 25 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.25
 
 Station Name 26  = Livneh_station_26
 North Coordinate 26 = 5243283.099200
 East Coordinate 26 = 459869.982292
 Elevation 26 = 423.140000
-Station File 26 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.26
+Station File 26 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.26
 
 Station Name 27  = Livneh_station_27
 North Coordinate 27 = 5243252.798640
 East Coordinate 27 = 464591.151823
 Elevation 27 = 439.760000
-Station File 27 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.27
+Station File 27 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.27
 
 Station Name 28  = Livneh_station_28
 North Coordinate 28 = 5243226.285780
 East Coordinate 28 = 469312.324738
 Elevation 28 = 414.800000
-Station File 28 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.28
+Station File 28 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.28
 
 Station Name 29  = Livneh_station_29
 North Coordinate 29 = 5243203.560580
 East Coordinate 29 = 474033.500585
 Elevation 29 = 348.260000
-Station File 29 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.29
+Station File 29 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.29
 
 Station Name 30  = Livneh_station_30
 North Coordinate 30 = 5243184.622990
 East Coordinate 30 = 478754.678914
 Elevation 30 = 271.800000
-Station File 30 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.30
+Station File 30 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.30
 
 Station Name 31  = Livneh_station_31
 North Coordinate 31 = 5236545.725040
 East Coordinate 31 = 436189.010770
 Elevation 31 = 167.930000
-Station File 31 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.31
+Station File 31 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.31
 
 Station Name 32  = Livneh_station_32
 North Coordinate 32 = 5236496.476290
 East Coordinate 32 = 440915.726899
 Elevation 32 = 197.320000
-Station File 32 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.32
+Station File 32 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.32
 
 Station Name 33  = Livneh_station_33
 North Coordinate 33 = 5236451.016300
 East Coordinate 33 = 445642.448526
 Elevation 33 = 218.140000
-Station File 33 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.33
+Station File 33 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.33
 
 Station Name 34  = Livneh_station_34
 North Coordinate 34 = 5236409.344980
 East Coordinate 34 = 450369.175210
 Elevation 34 = 243.100000
-Station File 34 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.34
+Station File 34 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.34
 
 Station Name 35  = Livneh_station_35
 North Coordinate 35 = 5236371.462250
 East Coordinate 35 = 455095.906511
 Elevation 35 = 272.200000
-Station File 35 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.35
+Station File 35 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.35
 
 Station Name 36  = Livneh_station_36
 North Coordinate 36 = 5236337.368020
 East Coordinate 36 = 459822.641988
 Elevation 36 = 292.060000
-Station File 36 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.36
+Station File 36 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.36
 
 Station Name 37  = Livneh_station_37
 North Coordinate 37 = 5236307.062210
 East Coordinate 37 = 464549.381201
 Elevation 37 = 302.680000
-Station File 37 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.37
+Station File 37 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.37
 
 Station Name 38  = Livneh_station_38
 North Coordinate 38 = 5236280.544770
 East Coordinate 38 = 469276.123710
 Elevation 38 = 286.910000
-Station File 38 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.38
+Station File 38 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.38
 
 Station Name 39  = Livneh_station_39
 North Coordinate 39 = 5236257.815640
 East Coordinate 39 = 474002.869075
 Elevation 39 = 244.750000
-Station File 39 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.39
+Station File 39 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.39
 
 Station Name 40  = Livneh_station_40
 North Coordinate 40 = 5236238.874780
 East Coordinate 40 = 478729.616858
 Elevation 40 = 194.850000
-Station File 40 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.40
+Station File 40 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.40
 
 Station Name 41  = Livneh_station_41
 North Coordinate 41 = 5236223.722130
 East Coordinate 41 = 483456.366617
 Elevation 41 = 137.210000
-Station File 41 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.41
+Station File 41 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.41
 
 Station Name 42  = Livneh_station_42
 North Coordinate 42 = 5229653.151750
 East Coordinate 42 = 431381.621853
 Elevation 42 = 101.900000
-Station File 42 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.42
+Station File 42 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.42
 
 Station Name 43  = Livneh_station_43
 North Coordinate 43 = 5229600.105200
 East Coordinate 43 = 436113.896835
 Elevation 43 = 120.400000
-Station File 43 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.43
+Station File 43 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.43
 
 Station Name 44  = Livneh_station_44
 North Coordinate 44 = 5229550.848170
 East Coordinate 44 = 440846.177596
 Elevation 44 = 138.120000
-Station File 44 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.44
+Station File 44 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.44
 
 Station Name 45  = Livneh_station_45
 North Coordinate 45 = 5229505.380530
 East Coordinate 45 = 445578.463709
 Elevation 45 = 155.070000
-Station File 45 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.45
+Station File 45 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.45
 
 Station Name 46  = Livneh_station_46
 North Coordinate 46 = 5229463.702210
 East Coordinate 46 = 450310.754743
 Elevation 46 = 167.020000
-Station File 46 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.46
+Station File 46 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.46
 
 Station Name 47  = Livneh_station_47
 North Coordinate 47 = 5229425.813110
 East Coordinate 47 = 455043.050271
 Elevation 47 = 173.980000
-Station File 47 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.47
+Station File 47 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.47
 
 Station Name 48  = Livneh_station_48
 North Coordinate 48 = 5229391.713140
 East Coordinate 48 = 459775.349862
 Elevation 48 = 178.460000
-Station File 48 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.48
+Station File 48 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.48
 
 Station Name 49  = Livneh_station_49
 North Coordinate 49 = 5229361.402240
 East Coordinate 49 = 464507.653090
 Elevation 49 = 180.470000
-Station File 49 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.49
+Station File 49 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.49
 
 Station Name 50  = Livneh_station_50
 North Coordinate 50 = 5229334.880350
 East Coordinate 50 = 469239.959526
 Elevation 50 = 177.160000
-Station File 50 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.50
+Station File 50 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.50
 
 Station Name 51  = Livneh_station_51
 North Coordinate 51 = 5229312.147400
 East Coordinate 51 = 473972.268742
 Elevation 51 = 168.540000
-Station File 51 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.51
+Station File 51 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.51
 
 Station Name 52  = Livneh_station_52
 North Coordinate 52 = 5229293.203350
 East Coordinate 52 = 478704.580309
 Elevation 52 = 152.770000
-Station File 52 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.52
+Station File 52 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.52
 
 Station Name 53  = Livneh_station_53
 North Coordinate 53 = 5229278.048150
 East Coordinate 53 = 483436.893801
 Elevation 53 = 129.840000
-Station File 53 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.53
+Station File 53 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.53
 
 Station Name 54  = Livneh_station_54
 North Coordinate 54 = 5222654.560700
 East Coordinate 54 = 436038.859500
 Elevation 54 = 91.430000
-Station File 54 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.54
+Station File 54 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.54
 
 Station Name 55  = Livneh_station_55
 North Coordinate 55 = 5222605.295610
 East Coordinate 55 = 440776.699222
 Elevation 55 = 102.140000
-Station File 55 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.55
+Station File 55 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.55
 
 Station Name 56  = Livneh_station_56
 North Coordinate 56 = 5222559.820550
 East Coordinate 56 = 445514.544147
 Elevation 56 = 114.730000
-Station File 56 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.56
+Station File 56 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.56
 
 Station Name 57  = Livneh_station_57
 North Coordinate 57 = 5222518.135420
 East Coordinate 57 = 450252.393858
 Elevation 57 = 119.920000
-Station File 57 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.57
+Station File 57 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.57
 
 Station Name 58  = Livneh_station_58
 North Coordinate 58 = 5222480.240120
 East Coordinate 58 = 454990.247939
 Elevation 58 = 117.730000
-Station File 58 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.58
+Station File 58 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.58
 
 Station Name 59  = Livneh_station_59
 North Coordinate 59 = 5222446.134590
 East Coordinate 59 = 459728.105972
 Elevation 59 = 114.690000
-Station File 59 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.59
+Station File 59 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.59
 
 Station Name 60  = Livneh_station_60
 North Coordinate 60 = 5222415.818740
 East Coordinate 60 = 464465.967540
 Elevation 60 = 110.790000
-Station File 60 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.60
+Station File 60 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.60
 
 Station Name 61  = Livneh_station_61
 North Coordinate 61 = 5222389.292510
 East Coordinate 61 = 469203.832228
 Elevation 61 = 114.630000
-Station File 61 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.61
+Station File 61 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.61
 
 Station Name 62  = Livneh_station_62
 North Coordinate 62 = 5222366.555850
 East Coordinate 62 = 473941.699620
 Elevation 62 = 126.200000
-Station File 62 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.62
+Station File 62 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.62
 
 Station Name 63  = Livneh_station_63
 North Coordinate 63 = 5222347.608710
 East Coordinate 63 = 478679.569298
 Elevation 63 = 136.260000
-Station File 63 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.63
+Station File 63 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.63
 
 Station Name 64  = Livneh_station_64
 North Coordinate 64 = 5222332.451040
 East Coordinate 64 = 483417.440847
 Elevation 64 = 144.800000
-Station File 64 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.64
+Station File 64 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.64
 
 Station Name 65  = Livneh_station_65
 North Coordinate 65 = 5222321.082820
 East Coordinate 65 = 488155.313851
 Elevation 65 = 129.470000
-Station File 65 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.65
+Station File 65 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.65
 
 Station Name 66  = Livneh_station_66
 North Coordinate 66 = 5215709.091540
 East Coordinate 66 = 435963.898852
 Elevation 66 = 81.030000
-Station File 66 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.66
+Station File 66 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.66
 
 Station Name 67  = Livneh_station_67
 North Coordinate 67 = 5215659.818640
 East Coordinate 67 = 440707.291855
 Elevation 67 = 89.380000
-Station File 67 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.67
+Station File 67 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.67
 
 Station Name 68  = Livneh_station_68
 North Coordinate 68 = 5215614.336360
 East Coordinate 68 = 445450.689914
 Elevation 68 = 97.110000
-Station File 68 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.68
+Station File 68 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.68
 
 Station Name 69  = Livneh_station_69
 North Coordinate 69 = 5215572.644610
 East Coordinate 69 = 450194.092623
 Elevation 69 = 101.800000
-Station File 69 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.69
+Station File 69 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.69
 
 Station Name 70  = Livneh_station_70
 North Coordinate 70 = 5215534.743310
 East Coordinate 70 = 454937.499577
 Elevation 70 = 103.460000
-Station File 70 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.70
+Station File 70 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.70
 
 Station Name 71  = Livneh_station_71
 North Coordinate 71 = 5215500.632370
 East Coordinate 71 = 459680.910371
 Elevation 71 = 100.750000
-Station File 71 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.71
+Station File 71 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.71
 
 Station Name 72  = Livneh_station_72
 North Coordinate 72 = 5215470.311710
 East Coordinate 72 = 464424.324600
 Elevation 72 = 93.650000
-Station File 72 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.72
+Station File 72 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.72
 
 Station Name 73  = Livneh_station_73
 North Coordinate 73 = 5215443.781280
 East Coordinate 73 = 469167.741859
 Elevation 73 = 99.310000
-Station File 73 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.73
+Station File 73 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.73
 
 Station Name 74  = Livneh_station_74
 North Coordinate 74 = 5215421.041020
 East Coordinate 74 = 473911.161745
 Elevation 74 = 117.720000
-Station File 74 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.74
+Station File 74 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.74
 
 Station Name 75  = Livneh_station_75
 North Coordinate 75 = 5215402.090870
 East Coordinate 75 = 478654.583853
 Elevation 75 = 145.320000
-Station File 75 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.75
+Station File 75 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.75
 
 Station Name 76  = Livneh_station_76
 North Coordinate 76 = 5215386.930800
 East Coordinate 76 = 483398.007778
 Elevation 76 = 182.110000
-Station File 76 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.76
+Station File 76 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.76
 
 Station Name 77  = Livneh_station_77
 North Coordinate 77 = 5215375.560780
 East Coordinate 77 = 488141.433118
 Elevation 77 = 181.180000
-Station File 77 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.77
+Station File 77 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.77
 
 Station Name 78  = Livneh_station_78
 North Coordinate 78 = 5208816.769540
 East Coordinate 78 = 431140.079681
 Elevation 78 = 64.340000
-Station File 78 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.78
+Station File 78 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.78
 
 Station Name 79  = Livneh_station_79
 North Coordinate 79 = 5208763.697730
 East Coordinate 79 = 435889.014980
 Elevation 79 = 74.870000
-Station File 79 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.79
+Station File 79 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.79
 
 Station Name 80  = Livneh_station_80
 North Coordinate 80 = 5208714.417250
 East Coordinate 80 = 440637.955579
 Elevation 80 = 82.090000
-Station File 80 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.80
+Station File 80 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.80
 
 Station Name 81  = Livneh_station_81
 North Coordinate 81 = 5208668.927970
 East Coordinate 81 = 445386.901086
 Elevation 81 = 85.990000
-Station File 81 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.81
+Station File 81 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.81
 
 Station Name 82  = Livneh_station_82
 North Coordinate 82 = 5208627.229810
 East Coordinate 82 = 450135.851106
 Elevation 82 = 91.010000
-Station File 82 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.82
+Station File 82 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.82
 
 Station Name 83  = Livneh_station_83
 North Coordinate 83 = 5208589.322680
 East Coordinate 83 = 454884.805247
 Elevation 83 = 97.140000
-Station File 83 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.83
+Station File 83 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.83
 
 Station Name 84  = Livneh_station_84
 North Coordinate 84 = 5208555.206490
 East Coordinate 84 = 459633.763114
 Elevation 84 = 97.850000
-Station File 84 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.84
+Station File 84 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.84
 
 Station Name 85  = Livneh_station_85
 North Coordinate 85 = 5208524.881180
 East Coordinate 85 = 464382.724317
 Elevation 85 = 93.160000
-Station File 85 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.85
+Station File 85 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.85
 
 Station Name 86  = Livneh_station_86
 North Coordinate 86 = 5208498.346670
 East Coordinate 86 = 469131.688461
 Elevation 86 = 97.950000
-Station File 86 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.86
+Station File 86 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.86
 
 Station Name 87  = Livneh_station_87
 North Coordinate 87 = 5208475.602910
 East Coordinate 87 = 473880.655154
 Elevation 87 = 112.240000
-Station File 87 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.87
+Station File 87 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.87
 
 Station Name 88  = Livneh_station_88
 North Coordinate 88 = 5208456.649850
 East Coordinate 88 = 478629.624003
 Elevation 88 = 153.090000
-Station File 88 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.88
+Station File 88 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.88
 
 Station Name 89  = Livneh_station_89
 North Coordinate 89 = 5208441.487450
 East Coordinate 89 = 483378.594617
 Elevation 89 = 220.510000
-Station File 89 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.89
+Station File 89 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.89
 
 Station Name 90  = Livneh_station_90
 North Coordinate 90 = 5208430.115680
 East Coordinate 90 = 488127.566604
 Elevation 90 = 228.650000
-Station File 90 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.90
+Station File 90 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.90
 
 Station Name 91  = Livneh_station_91
 North Coordinate 91 = 5208422.534510
 East Coordinate 91 = 492876.539570
 Elevation 91 = 177.500000
-Station File 91 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.91
+Station File 91 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.91
 
 Station Name 92  = Livneh_station_92
 North Coordinate 92 = 5208418.743940
 East Coordinate 92 = 497625.513125
 Elevation 92 = 124.290000
-Station File 92 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.92
+Station File 92 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.92
 
 Station Name 93  = Livneh_station_93
 North Coordinate 93 = 5208418.743940
 East Coordinate 93 = 502374.486875
 Elevation 93 = 69.020000
-Station File 93 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.93
+Station File 93 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.93
 
 Station Name 94  = Livneh_station_94
 North Coordinate 94 = 5201723.595400
 East Coordinate 94 = 445323.177736
 Elevation 94 = 81.390000
-Station File 94 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.94
+Station File 94 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.94
 
 Station Name 95  = Livneh_station_95
 North Coordinate 95 = 5201681.891030
 East Coordinate 95 = 450077.669375
 Elevation 95 = 87.550000
-Station File 95 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.95
+Station File 95 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.95
 
 Station Name 96  = Livneh_station_96
 North Coordinate 96 = 5201643.978240
 East Coordinate 96 = 454832.165010
 Elevation 96 = 98.760000
-Station File 96 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.96
+Station File 96 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.96
 
 Station Name 97  = Livneh_station_97
 North Coordinate 97 = 5201609.856970
 East Coordinate 97 = 459586.664258
 Elevation 97 = 106.010000
-Station File 97 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.97
+Station File 97 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.97
 
 Station Name 98  = Livneh_station_98
 North Coordinate 98 = 5201579.527140
 East Coordinate 98 = 464341.166740
 Elevation 98 = 109.300000
-Station File 98 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.98
+Station File 98 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.98
 
 Station Name 99  = Livneh_station_99
 North Coordinate 99 = 5201552.988680
 East Coordinate 99 = 469095.672075
 Elevation 99 = 110.550000
-Station File 99 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.99
+Station File 99 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.99
 
 Station Name 100  = Livneh_station_100
 North Coordinate 100 = 5201530.241530
 East Coordinate 100 = 473850.179881
 Elevation 100 = 109.750000
-Station File 100 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.100
+Station File 100 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.100
 
 Station Name 101  = Livneh_station_101
 North Coordinate 101 = 5201511.285650
 East Coordinate 101 = 478604.689779
 Elevation 101 = 159.580000
-Station File 101 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.101
+Station File 101 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.101
 
 Station Name 102  = Livneh_station_102
 North Coordinate 102 = 5201496.121000
 East Coordinate 102 = 483359.201387
 Elevation 102 = 260.020000
-Station File 102 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.102
+Station File 102 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.102
 
 Station Name 103  = Livneh_station_103
 North Coordinate 103 = 5201484.747530
 East Coordinate 103 = 488113.714326
 Elevation 103 = 271.880000
-Station File 103 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.103
+Station File 103 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.103
 
 Station Name 104  = Livneh_station_104
 North Coordinate 104 = 5201477.165240
 East Coordinate 104 = 492868.228216
 Elevation 104 = 195.140000
-Station File 104 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.104
+Station File 104 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.104
 
 Station Name 105  = Livneh_station_105
 North Coordinate 105 = 5201473.374090
 East Coordinate 105 = 497622.742675
 Elevation 105 = 131.430000
-Station File 105 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.105
+Station File 105 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.105
 
 Station Name 106  = Livneh_station_106
 North Coordinate 106 = 5201473.374090
 East Coordinate 106 = 502377.257325
 Elevation 106 = 80.760000
-Station File 106 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.106
+Station File 106 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.106
 
 Station Name 107  = Livneh_station_107
 North Coordinate 107 = 5201477.165240
 East Coordinate 107 = 507131.771784
 Elevation 107 = 62.640000
-Station File 107 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.107
+Station File 107 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.107
 
 Station Name 108  = Livneh_station_108
 North Coordinate 108 = 5201484.747530
 East Coordinate 108 = 511886.285674
 Elevation 108 = 77.070000
-Station File 108 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.108
+Station File 108 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.108
 
 Station Name 109  = Livneh_station_109
 North Coordinate 109 = 5201496.121000
 East Coordinate 109 = 516640.798613
 Elevation 109 = 89.670000
-Station File 109 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.109
+Station File 109 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.109
 
 Station Name 110  = Livneh_station_110
 North Coordinate 110 = 5194778.338650
 East Coordinate 110 = 445259.519939
 Elevation 110 = 86.000000
-Station File 110 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.110
+Station File 110 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.110
 
 Station Name 111  = Livneh_station_111
 North Coordinate 111 = 5194736.628260
 East Coordinate 111 = 450019.547498
 Elevation 111 = 92.600000
-Station File 111 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.111
+Station File 111 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.111
 
 Station Name 112  = Livneh_station_112
 North Coordinate 112 = 5194698.710010
 East Coordinate 112 = 454779.578927
 Elevation 112 = 104.040000
-Station File 112 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.112
+Station File 112 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.112
 
 Station Name 113  = Livneh_station_113
 North Coordinate 113 = 5194664.583820
 East Coordinate 113 = 459539.613857
 Elevation 113 = 117.740000
-Station File 113 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.113
+Station File 113 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.113
 
 Station Name 114  = Livneh_station_114
 North Coordinate 114 = 5194634.249620
 East Coordinate 114 = 464299.651919
 Elevation 114 = 133.710000
-Station File 114 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.114
+Station File 114 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.114
 
 Station Name 115  = Livneh_station_115
 North Coordinate 115 = 5194607.707330
 East Coordinate 115 = 469059.692744
 Elevation 115 = 133.950000
-Station File 115 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.115
+Station File 115 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.115
 
 Station Name 116  = Livneh_station_116
 North Coordinate 116 = 5194584.956900
 East Coordinate 116 = 473819.735963
 Elevation 116 = 118.470000
-Station File 116 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.116
+Station File 116 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.116
 
 Station Name 117  = Livneh_station_117
 North Coordinate 117 = 5194565.998290
 East Coordinate 117 = 478579.781208
 Elevation 117 = 153.660000
-Station File 117 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.117
+Station File 117 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.117
 
 Station Name 118  = Livneh_station_118
 North Coordinate 118 = 5194550.831450
 East Coordinate 118 = 483339.828110
 Elevation 118 = 239.510000
-Station File 118 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.118
+Station File 118 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.118
 
 Station Name 119  = Livneh_station_119
 North Coordinate 119 = 5194539.456350
 East Coordinate 119 = 488099.876301
 Elevation 119 = 245.640000
-Station File 119 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.119
+Station File 119 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.119
 
 Station Name 120  = Livneh_station_120
 North Coordinate 120 = 5194531.872960
 East Coordinate 120 = 492859.925412
 Elevation 120 = 172.060000
-Station File 120 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.120
+Station File 120 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.120
 
 Station Name 121  = Livneh_station_121
 North Coordinate 121 = 5194528.081270
 East Coordinate 121 = 497619.975076
 Elevation 121 = 119.400000
-Station File 121 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.121
+Station File 121 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.121
 
 Station Name 122  = Livneh_station_122
 North Coordinate 122 = 5194528.081270
 East Coordinate 122 = 502380.024924
 Elevation 122 = 87.650000
-Station File 122 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.122
+Station File 122 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.122
 
 Station Name 123  = Livneh_station_123
 North Coordinate 123 = 5194531.872960
 East Coordinate 123 = 507140.074588
 Elevation 123 = 80.790000
-Station File 123 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.123
+Station File 123 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.123
 
 Station Name 124  = Livneh_station_124
 North Coordinate 124 = 5194539.456350
 East Coordinate 124 = 511900.123699
 Elevation 124 = 98.830000
-Station File 124 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.124
+Station File 124 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.124
 
 Station Name 125  = Livneh_station_125
 North Coordinate 125 = 5194550.831450
 East Coordinate 125 = 516660.171890
 Elevation 125 = 118.650000
-Station File 125 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.125
+Station File 125 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.125
 
 Station Name 126  = Livneh_station_126
 North Coordinate 126 = 5194565.998290
 East Coordinate 126 = 521420.218792
 Elevation 126 = 140.260000
-Station File 126 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.126
+Station File 126 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.126
 
 Station Name 127  = Livneh_station_127
 North Coordinate 127 = 5187689.048610
 East Coordinate 127 = 464258.179901
 Elevation 127 = 166.370000
-Station File 127 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.127
+Station File 127 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.127
 
 Station Name 128  = Livneh_station_128
 North Coordinate 128 = 5187662.502620
 East Coordinate 128 = 469023.750510
 Elevation 128 = 168.160000
-Station File 128 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.128
+Station File 128 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.128
 
 Station Name 129  = Livneh_station_129
 North Coordinate 129 = 5187639.749030
 East Coordinate 129 = 473789.323435
 Elevation 129 = 138.400000
-Station File 129 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.129
+Station File 129 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.129
 
 Station Name 130  = Livneh_station_130
 North Coordinate 130 = 5187620.787770
 East Coordinate 130 = 478554.898320
 Elevation 130 = 135.330000
-Station File 130 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.130
+Station File 130 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.130
 
 Station Name 131  = Livneh_station_131
 North Coordinate 131 = 5187605.618820
 East Coordinate 131 = 483320.474808
 Elevation 131 = 158.960000
-Station File 131 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.131
+Station File 131 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.131
 
 Station Name 132  = Livneh_station_132
 North Coordinate 132 = 5187594.242130
 East Coordinate 132 = 488086.052544
 Elevation 132 = 149.940000
-Station File 132 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.132
+Station File 132 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.132
 
 Station Name 133  = Livneh_station_133
 North Coordinate 133 = 5187586.657690
 East Coordinate 133 = 492851.631170
 Elevation 133 = 108.280000
-Station File 133 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.133
+Station File 133 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.133
 
 Station Name 134  = Livneh_station_134
 North Coordinate 134 = 5187582.865470
 East Coordinate 134 = 497617.210331
 Elevation 134 = 88.190000
-Station File 134 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.134
+Station File 134 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.134
 
 Station Name 135  = Livneh_station_135
 North Coordinate 135 = 5187582.865470
 East Coordinate 135 = 502382.789669
 Elevation 135 = 89.670000
-Station File 135 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.135
+Station File 135 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.135
 
 Station Name 136  = Livneh_station_136
 North Coordinate 136 = 5187586.657690
 East Coordinate 136 = 507148.368830
 Elevation 136 = 100.380000
-Station File 136 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.136
+Station File 136 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.136
 
 Station Name 137  = Livneh_station_137
 North Coordinate 137 = 5187594.242130
 East Coordinate 137 = 511913.947456
 Elevation 137 = 120.320000
-Station File 137 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.137
+Station File 137 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.137
 
 Station Name 138  = Livneh_station_138
 North Coordinate 138 = 5187605.618820
 East Coordinate 138 = 516679.525192
 Elevation 138 = 150.190000
-Station File 138 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.138
+Station File 138 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.138
 
 Station Name 139  = Livneh_station_139
 North Coordinate 139 = 5187620.787770
 East Coordinate 139 = 521445.101680
 Elevation 139 = 189.980000
-Station File 139 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.139
+Station File 139 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.139
 
 Station Name 140  = Livneh_station_140
 North Coordinate 140 = 5187639.749030
 East Coordinate 140 = 526210.676565
 Elevation 140 = 221.570000
-Station File 140 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.140
+Station File 140 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.140
 
 Station Name 141  = Livneh_station_141
 North Coordinate 141 = 5187662.502620
 East Coordinate 141 = 530976.249490
 Elevation 141 = 244.960000
-Station File 141 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.141
+Station File 141 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.141
 
 Station Name 142  = Livneh_station_142
 North Coordinate 142 = 5187689.048610
 East Coordinate 142 = 535741.820099
 Elevation 142 = 255.080000
-Station File 142 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.142
+Station File 142 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.142
 
 Station Name 143  = Livneh_station_143
 North Coordinate 143 = 5180743.924130
 East Coordinate 143 = 464216.750735
 Elevation 143 = 188.260000
-Station File 143 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.143
+Station File 143 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.143
 
 Station Name 144  = Livneh_station_144
 North Coordinate 144 = 5180717.374570
 East Coordinate 144 = 468987.845415
 Elevation 144 = 201.250000
-Station File 144 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.144
+Station File 144 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.144
 
 Station Name 145  = Livneh_station_145
 North Coordinate 145 = 5180694.617920
 East Coordinate 145 = 473758.942332
 Elevation 145 = 184.250000
-Station File 145 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.145
+Station File 145 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.145
 
 Station Name 146  = Livneh_station_146
 North Coordinate 146 = 5180675.654110
 East Coordinate 146 = 478530.041144
 Elevation 146 = 162.000000
-Station File 146 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.146
+Station File 146 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.146
 
 Station Name 147  = Livneh_station_147
 North Coordinate 147 = 5180660.483120
 East Coordinate 147 = 483301.141505
 Elevation 147 = 134.500000
-Station File 147 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.147
+Station File 147 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.147
 
 Station Name 148  = Livneh_station_148
 North Coordinate 148 = 5180649.104900
 East Coordinate 148 = 488072.243072
 Elevation 148 = 109.550000
-Station File 148 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.148
+Station File 148 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.148
 
 Station Name 149  = Livneh_station_149
 North Coordinate 149 = 5180641.519430
 East Coordinate 149 = 492843.345499
 Elevation 149 = 87.170000
-Station File 149 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.149
+Station File 149 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.149
 
 Station Name 150  = Livneh_station_150
 North Coordinate 150 = 5180637.726710
 East Coordinate 150 = 497614.448442
 Elevation 150 = 81.380000
-Station File 150 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.150
+Station File 150 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.150
 
 Station Name 151  = Livneh_station_151
 North Coordinate 151 = 5180637.726710
 East Coordinate 151 = 502385.551558
 Elevation 151 = 92.170000
-Station File 151 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.151
+Station File 151 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.151
 
 Station Name 152  = Livneh_station_152
 North Coordinate 152 = 5180641.519430
 East Coordinate 152 = 507156.654501
 Elevation 152 = 109.240000
-Station File 152 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.152
+Station File 152 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.152
 
 Station Name 153  = Livneh_station_153
 North Coordinate 153 = 5180649.104900
 East Coordinate 153 = 511927.756928
 Elevation 153 = 132.580000
-Station File 153 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.153
+Station File 153 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.153
 
 Station Name 154  = Livneh_station_154
 North Coordinate 154 = 5180660.483120
 East Coordinate 154 = 516698.858495
 Elevation 154 = 173.960000
-Station File 154 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.154
+Station File 154 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.154
 
 Station Name 155  = Livneh_station_155
 North Coordinate 155 = 5180675.654110
 East Coordinate 155 = 521469.958856
 Elevation 155 = 233.380000
-Station File 155 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.155
+Station File 155 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.155
 
 Station Name 156  = Livneh_station_156
 North Coordinate 156 = 5180694.617920
 East Coordinate 156 = 526241.057668
 Elevation 156 = 289.240000
-Station File 156 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.156
+Station File 156 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.156
 
 Station Name 157  = Livneh_station_157
 North Coordinate 157 = 5180717.374570
 East Coordinate 157 = 531012.154585
 Elevation 157 = 341.530000
-Station File 157 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.157
+Station File 157 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.157
 
 Station Name 158  = Livneh_station_158
 North Coordinate 158 = 5180743.924130
 East Coordinate 158 = 535783.249265
 Elevation 158 = 376.750000
-Station File 158 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.158
+Station File 158 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.158
 
 Station Name 159  = Livneh_station_159
 North Coordinate 159 = 5180774.266650
 East Coordinate 159 = 540554.341360
 Elevation 159 = 394.880000
-Station File 159 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.159
+Station File 159 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.159
 
 Station Name 160  = Livneh_station_160
 North Coordinate 160 = 5180808.402190
 East Coordinate 160 = 545325.430528
 Elevation 160 = 426.490000
-Station File 160 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.160
+Station File 160 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.160
 
 Station Name 161  = Livneh_station_161
 North Coordinate 161 = 5173829.222650
 East Coordinate 161 = 459398.753933
 Elevation 161 = 154.490000
-Station File 161 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.161
+Station File 161 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.161
 
 Station Name 162  = Livneh_station_162
 North Coordinate 162 = 5173798.876200
 East Coordinate 162 = 464175.364470
 Elevation 162 = 199.380000
-Station File 162 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.162
+Station File 162 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.162
 
 Station Name 163  = Livneh_station_163
 North Coordinate 163 = 5173772.323190
 East Coordinate 163 = 468951.977500
 Elevation 163 = 233.230000
-Station File 163 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.163
+Station File 163 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.163
 
 Station Name 164  = Livneh_station_164
 North Coordinate 164 = 5173749.563580
 East Coordinate 164 = 473728.592691
 Elevation 164 = 256.030000
-Station File 164 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.164
+Station File 164 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.164
 
 Station Name 165  = Livneh_station_165
 North Coordinate 165 = 5173730.597310
 East Coordinate 165 = 478505.209709
 Elevation 165 = 233.660000
-Station File 165 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.165
+Station File 165 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.165
 
 Station Name 166  = Livneh_station_166
 North Coordinate 166 = 5173715.424350
 East Coordinate 166 = 483281.828223
 Elevation 166 = 166.120000
-Station File 166 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.166
+Station File 166 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.166
 
 Station Name 167  = Livneh_station_167
 North Coordinate 167 = 5173704.044650
 East Coordinate 167 = 488058.447900
 Elevation 167 = 124.490000
-Station File 167 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.167
+Station File 167 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.167
 
 Station Name 168  = Livneh_station_168
 North Coordinate 168 = 5173696.458210
 East Coordinate 168 = 492835.068408
 Elevation 168 = 108.750000
-Station File 168 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.168
+Station File 168 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.168
 
 Station Name 169  = Livneh_station_169
 North Coordinate 169 = 5173692.664980
 East Coordinate 169 = 497611.689414
 Elevation 169 = 98.980000
-Station File 169 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.169
+Station File 169 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.169
 
 Station Name 170  = Livneh_station_170
 North Coordinate 170 = 5173692.664980
 East Coordinate 170 = 502388.310586
 Elevation 170 = 95.150000
-Station File 170 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.170
+Station File 170 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.170
 
 Station Name 171  = Livneh_station_171
 North Coordinate 171 = 5173696.458210
 East Coordinate 171 = 507164.931592
 Elevation 171 = 107.360000
-Station File 171 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.171
+Station File 171 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.171
 
 Station Name 172  = Livneh_station_172
 North Coordinate 172 = 5173704.044650
 East Coordinate 172 = 511941.552100
 Elevation 172 = 135.580000
-Station File 172 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.172
+Station File 172 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.172
 
 Station Name 173  = Livneh_station_173
 North Coordinate 173 = 5173715.424350
 East Coordinate 173 = 516718.171777
 Elevation 173 = 189.950000
-Station File 173 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.173
+Station File 173 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.173
 
 Station Name 174  = Livneh_station_174
 North Coordinate 174 = 5173730.597310
 East Coordinate 174 = 521494.790291
 Elevation 174 = 270.470000
-Station File 174 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.174
+Station File 174 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.174
 
 Station Name 175  = Livneh_station_175
 North Coordinate 175 = 5173749.563580
 East Coordinate 175 = 526271.407309
 Elevation 175 = 356.110000
-Station File 175 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.175
+Station File 175 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.175
 
 Station Name 176  = Livneh_station_176
 North Coordinate 176 = 5173772.323190
 East Coordinate 176 = 531048.022500
 Elevation 176 = 446.880000
-Station File 176 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.176
+Station File 176 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.176
 
 Station Name 177  = Livneh_station_177
 North Coordinate 177 = 5173798.876200
 East Coordinate 177 = 535824.635530
 Elevation 177 = 531.480000
-Station File 177 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.177
+Station File 177 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.177
 
 Station Name 178  = Livneh_station_178
 North Coordinate 178 = 5173829.222650
 East Coordinate 178 = 540601.246067
 Elevation 178 = 609.920000
-Station File 178 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.178
+Station File 178 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.178
 
 Station Name 179  = Livneh_station_179
 North Coordinate 179 = 5173863.362630
 East Coordinate 179 = 545377.853777
 Elevation 179 = 666.690000
-Station File 179 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.179
+Station File 179 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.179
 
 Station Name 180  = Livneh_station_180
 North Coordinate 180 = 5173901.296200
 East Coordinate 180 = 550154.458328
 Elevation 180 = 701.790000
-Station File 180 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.180
+Station File 180 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.180
 
 Station Name 181  = Livneh_station_181
 North Coordinate 181 = 5166918.399300
 East Coordinate 181 = 454569.777374
 Elevation 181 = 134.660000
-Station File 181 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.181
+Station File 181 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.181
 
 Station Name 182  = Livneh_station_182
 North Coordinate 182 = 5166884.255060
 East Coordinate 182 = 459351.897902
 Elevation 182 = 165.890000
-Station File 182 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.182
+Station File 182 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.182
 
 Station Name 183  = Livneh_station_183
 North Coordinate 183 = 5166853.904810
 East Coordinate 183 = 464134.021154
 Elevation 183 = 219.790000
-Station File 183 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.183
+Station File 183 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.183
 
 Station Name 184  = Livneh_station_184
 North Coordinate 184 = 5166827.348480
 East Coordinate 184 = 468916.146809
 Elevation 184 = 260.200000
-Station File 184 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.184
+Station File 184 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.184
 
 Station Name 185  = Livneh_station_185
 North Coordinate 185 = 5166804.586020
 East Coordinate 185 = 473698.274546
 Elevation 185 = 287.130000
-Station File 185 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.185
+Station File 185 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.185
 
 Station Name 186  = Livneh_station_186
 North Coordinate 186 = 5166785.617390
 East Coordinate 186 = 478480.404045
 Elevation 186 = 264.130000
-Station File 186 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.186
+Station File 186 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.186
 
 Station Name 187  = Livneh_station_187
 North Coordinate 187 = 5166770.442530
 East Coordinate 187 = 483262.534985
 Elevation 187 = 191.180000
-Station File 187 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.187
+Station File 187 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.187
 
 Station Name 188  = Livneh_station_188
 North Coordinate 188 = 5166759.061410
 East Coordinate 188 = 488044.667046
 Elevation 188 = 147.720000
-Station File 188 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.188
+Station File 188 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.188
 
 Station Name 189  = Livneh_station_189
 North Coordinate 189 = 5166751.474010
 East Coordinate 189 = 492826.799907
 Elevation 189 = 133.740000
-Station File 189 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.189
+Station File 189 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.189
 
 Station Name 190  = Livneh_station_190
 North Coordinate 190 = 5166747.680320
 East Coordinate 190 = 497608.933249
 Elevation 190 = 120.420000
-Station File 190 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.190
+Station File 190 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.190
 
 Station Name 191  = Livneh_station_191
 North Coordinate 191 = 5166747.680320
 East Coordinate 191 = 502391.066751
 Elevation 191 = 107.780000
-Station File 191 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.191
+Station File 191 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.191
 
 Station Name 192  = Livneh_station_192
 North Coordinate 192 = 5166751.474010
 East Coordinate 192 = 507173.200093
 Elevation 192 = 113.330000
-Station File 192 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.192
+Station File 192 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.192
 
 Station Name 193  = Livneh_station_193
 North Coordinate 193 = 5166759.061410
 East Coordinate 193 = 511955.332954
 Elevation 193 = 137.070000
-Station File 193 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.193
+Station File 193 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.193
 
 Station Name 194  = Livneh_station_194
 North Coordinate 194 = 5166770.442530
 East Coordinate 194 = 516737.465015
 Elevation 194 = 185.700000
-Station File 194 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.194
+Station File 194 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.194
 
 Station Name 195  = Livneh_station_195
 North Coordinate 195 = 5166785.617390
 East Coordinate 195 = 521519.595955
 Elevation 195 = 259.220000
-Station File 195 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.195
+Station File 195 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.195
 
 Station Name 196  = Livneh_station_196
 North Coordinate 196 = 5166804.586020
 East Coordinate 196 = 526301.725454
 Elevation 196 = 340.540000
-Station File 196 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.196
+Station File 196 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.196
 
 Station Name 197  = Livneh_station_197
 North Coordinate 197 = 5166827.348480
 East Coordinate 197 = 531083.853191
 Elevation 197 = 429.670000
-Station File 197 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.197
+Station File 197 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.197
 
 Station Name 198  = Livneh_station_198
 North Coordinate 198 = 5166853.904810
 East Coordinate 198 = 535865.978846
 Elevation 198 = 524.890000
-Station File 198 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.198
+Station File 198 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.198
 
 Station Name 199  = Livneh_station_199
 North Coordinate 199 = 5166884.255060
 East Coordinate 199 = 540648.102098
 Elevation 199 = 626.210000
-Station File 199 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.199
+Station File 199 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.199
 
 Station Name 200  = Livneh_station_200
 North Coordinate 200 = 5166918.399300
 East Coordinate 200 = 545430.222626
 Elevation 200 = 696.030000
-Station File 200 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.200
+Station File 200 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.200
 
 Station Name 201  = Livneh_station_201
 North Coordinate 201 = 5159939.363870
 East Coordinate 201 = 459305.090600
 Elevation 201 = 179.490000
-Station File 201 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.201
+Station File 201 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.201
 
 Station Name 202  = Livneh_station_202
 North Coordinate 202 = 5159909.009970
 East Coordinate 202 = 464092.720835
 Elevation 202 = 249.470000
-Station File 202 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.202
+Station File 202 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.202
 
 Station Name 203  = Livneh_station_203
 North Coordinate 203 = 5159882.450450
 East Coordinate 203 = 468880.353382
 Elevation 203 = 282.160000
-Station File 203 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.203
+Station File 203 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.203
 
 Station Name 204  = Livneh_station_204
 North Coordinate 204 = 5159859.685260
 East Coordinate 204 = 473667.987933
 Elevation 204 = 277.560000
-Station File 204 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.204
+Station File 204 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.204
 
 Station Name 205  = Livneh_station_205
 North Coordinate 205 = 5159840.714340
 East Coordinate 205 = 478455.624180
 Elevation 205 = 253.400000
-Station File 205 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.205
+Station File 205 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.205
 
 Station Name 206  = Livneh_station_206
 North Coordinate 206 = 5159825.537660
 East Coordinate 206 = 483243.261813
 Elevation 206 = 209.670000
-Station File 206 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.206
+Station File 206 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.206
 
 Station Name 207  = Livneh_station_207
 North Coordinate 207 = 5159814.155170
 East Coordinate 207 = 488030.900525
 Elevation 207 = 179.250000
-Station File 207 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.207
+Station File 207 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.207
 
 Station Name 208  = Livneh_station_208
 North Coordinate 208 = 5159806.566860
 East Coordinate 208 = 492818.540007
 Elevation 208 = 162.120000
-Station File 208 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.208
+Station File 208 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.208
 
 Station Name 209  = Livneh_station_209
 North Coordinate 209 = 5159802.772710
 East Coordinate 209 = 497606.179951
 Elevation 209 = 145.720000
-Station File 209 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.209
+Station File 209 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.209
 
 Station Name 210  = Livneh_station_210
 North Coordinate 210 = 5159802.772710
 East Coordinate 210 = 502393.820049
 Elevation 210 = 130.040000
-Station File 210 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.210
+Station File 210 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.210
 
 Station Name 211  = Livneh_station_211
 North Coordinate 211 = 5159806.566860
 East Coordinate 211 = 507181.459993
 Elevation 211 = 127.150000
-Station File 211 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.211
+Station File 211 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.211
 
 Station Name 212  = Livneh_station_212
 North Coordinate 212 = 5159814.155170
 East Coordinate 212 = 511969.099475
 Elevation 212 = 137.050000
-Station File 212 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.212
+Station File 212 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.212
 
 Station Name 213  = Livneh_station_213
 North Coordinate 213 = 5159825.537660
 East Coordinate 213 = 516756.738187
 Elevation 213 = 161.200000
-Station File 213 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.213
+Station File 213 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.213
 
 Station Name 214  = Livneh_station_214
 North Coordinate 214 = 5159840.714340
 East Coordinate 214 = 521544.375820
 Elevation 214 = 199.620000
-Station File 214 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.214
+Station File 214 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.214
 
 Station Name 215  = Livneh_station_215
 North Coordinate 215 = 5159859.685260
 East Coordinate 215 = 526332.012067
 Elevation 215 = 242.520000
-Station File 215 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.215
+Station File 215 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.215
 
 Station Name 216  = Livneh_station_216
 North Coordinate 216 = 5159882.450450
 East Coordinate 216 = 531119.646618
 Elevation 216 = 289.900000
-Station File 216 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.216
+Station File 216 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.216
 
 Station Name 217  = Livneh_station_217
 North Coordinate 217 = 5159909.009970
 East Coordinate 217 = 535907.279165
 Elevation 217 = 356.980000
-Station File 217 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.217
+Station File 217 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.217
 
 Station Name 218  = Livneh_station_218
 North Coordinate 218 = 5159939.363870
 East Coordinate 218 = 540694.909400
 Elevation 218 = 443.770000
-Station File 218 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.218
+Station File 218 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.218
 
 Station Name 219  = Livneh_station_219
 North Coordinate 219 = 5152964.191700
 East Coordinate 219 = 464051.463561
 Elevation 219 = 299.680000
-Station File 219 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.219
+Station File 219 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.219
 
 Station Name 220  = Livneh_station_220
 North Coordinate 220 = 5152937.629120
 East Coordinate 220 = 468844.597262
 Elevation 220 = 331.440000
-Station File 220 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.220
+Station File 220 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.220
 
 Station Name 221  = Livneh_station_221
 North Coordinate 221 = 5152914.861290
 East Coordinate 221 = 473637.732888
 Elevation 221 = 323.080000
-Station File 221 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.221
+Station File 221 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.221
 
 Station Name 222  = Livneh_station_222
 North Coordinate 222 = 5152895.888180
 East Coordinate 222 = 478430.870142
 Elevation 222 = 307.490000
-Station File 222 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.222
+Station File 222 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.222
 
 Station Name 223  = Livneh_station_223
 North Coordinate 223 = 5152880.709750
 East Coordinate 223 = 483224.008729
 Elevation 223 = 284.670000
-Station File 223 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.223
+Station File 223 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.223
 
 Station Name 224  = Livneh_station_224
 North Coordinate 224 = 5152869.325950
 East Coordinate 224 = 488017.148352
 Elevation 224 = 246.760000
-Station File 224 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.224
+Station File 224 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.224
 
 Station Name 225  = Livneh_station_225
 North Coordinate 225 = 5152861.736770
 East Coordinate 225 = 492810.288715
 Elevation 225 = 193.770000
-Station File 225 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.225
+Station File 225 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.225
 
 Station Name 226  = Livneh_station_226
 North Coordinate 226 = 5152857.942180
 East Coordinate 226 = 497603.429522
 Elevation 226 = 157.040000
-Station File 226 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.226
+Station File 226 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.226
 
 Station Name 227  = Livneh_station_227
 North Coordinate 227 = 5152857.942180
 East Coordinate 227 = 502396.570478
 Elevation 227 = 136.560000
-Station File 227 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.227
+Station File 227 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.227
 
 Station Name 228  = Livneh_station_228
 North Coordinate 228 = 5152861.736770
 East Coordinate 228 = 507189.711285
 Elevation 228 = 126.570000
-Station File 228 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.228
+Station File 228 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.228
 
 Station Name 229  = Livneh_station_229
 North Coordinate 229 = 5152869.325950
 East Coordinate 229 = 511982.851648
 Elevation 229 = 127.060000
-Station File 229 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.229
+Station File 229 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.229
 
 Station Name 230  = Livneh_station_230
 North Coordinate 230 = 5152880.709750
 East Coordinate 230 = 516775.991271
 Elevation 230 = 138.590000
-Station File 230 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.230
+Station File 230 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.230
 
 Station Name 231  = Livneh_station_231
 North Coordinate 231 = 5152895.888180
 East Coordinate 231 = 521569.129858
 Elevation 231 = 161.170000
-Station File 231 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.231
+Station File 231 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.231
 
 Station Name 232  = Livneh_station_232
 North Coordinate 232 = 5152914.861290
 East Coordinate 232 = 526362.267112
 Elevation 232 = 194.200000
-Station File 232 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.232
+Station File 232 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.232
 
 Station Name 233  = Livneh_station_233
 North Coordinate 233 = 5152937.629120
 East Coordinate 233 = 531155.402738
 Elevation 233 = 237.690000
-Station File 233 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.233
+Station File 233 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.233
 
 Station Name 234  = Livneh_station_234
 North Coordinate 234 = 5146019.450000
 East Coordinate 234 = 464010.249381
 Elevation 234 = 370.400000
-Station File 234 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.234
+Station File 234 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.234
 
 Station Name 235  = Livneh_station_235
 North Coordinate 235 = 5145992.884480
 East Coordinate 235 = 468808.878490
 Elevation 235 = 408.040000
-Station File 235 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.235
+Station File 235 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.235
 
 Station Name 236  = Livneh_station_236
 North Coordinate 236 = 5145970.114130
 East Coordinate 236 = 473607.509445
 Elevation 236 = 423.700000
-Station File 236 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.236
+Station File 236 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.236
 
 Station Name 237  = Livneh_station_237
 North Coordinate 237 = 5145951.138930
 East Coordinate 237 = 478406.141962
 Elevation 237 = 426.410000
-Station File 237 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.237
+Station File 237 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.237
 
 Station Name 238  = Livneh_station_238
 North Coordinate 238 = 5145935.958810
 East Coordinate 238 = 483204.775757
 Elevation 238 = 416.160000
-Station File 238 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.238
+Station File 238 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.238
 
 Station Name 239  = Livneh_station_239
 North Coordinate 239 = 5145924.573750
 East Coordinate 239 = 488003.410545
 Elevation 239 = 350.250000
-Station File 239 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.239
+Station File 239 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.239
 
 Station Name 240  = Livneh_station_240
 North Coordinate 240 = 5145916.983730
 East Coordinate 240 = 492802.046043
 Elevation 240 = 228.680000
-Station File 240 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.240
+Station File 240 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.240
 
 Station Name 241  = Livneh_station_241
 North Coordinate 241 = 5145913.188720
 East Coordinate 241 = 497600.681967
 Elevation 241 = 154.380000
-Station File 241 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.241
+Station File 241 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.241
 
 Station Name 242  = Livneh_station_242
 North Coordinate 242 = 5145913.188720
 East Coordinate 242 = 502399.318033
 Elevation 242 = 127.340000
-Station File 242 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.242
+Station File 242 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.242
 
 Station Name 243  = Livneh_station_243
 North Coordinate 243 = 5139048.216540
 East Coordinate 243 = 468773.197108
 Elevation 243 = 386.350000
-Station File 243 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.243
+Station File 243 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.243
 
 Station Name 244  = Livneh_station_244
 North Coordinate 244 = 5139025.443790
 East Coordinate 244 = 473577.317640
 Elevation 244 = 427.180000
-Station File 244 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.244
+Station File 244 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.244
 
 Station Name 245  = Livneh_station_245
 North Coordinate 245 = 5139006.466570
 East Coordinate 245 = 478381.439668
 Elevation 245 = 448.650000
-Station File 245 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.245
+Station File 245 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.245
 
 Station Name 246  = Livneh_station_246
 North Coordinate 246 = 5138991.284850
 East Coordinate 246 = 483185.562918
 Elevation 246 = 450.770000
-Station File 246 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.246
+Station File 246 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.246
 
 Station Name 247  = Livneh_station_247
 North Coordinate 247 = 5138979.898580
 East Coordinate 247 = 487989.687119
 Elevation 247 = 393.340000
-Station File 247 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.247
+Station File 247 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.247
 
 Station Name 248  = Livneh_station_248
 North Coordinate 248 = 5138972.307760
 East Coordinate 248 = 492793.812000
 Elevation 248 = 276.360000
-Station File 248 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.248
+Station File 248 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.248
 
 Station Name 249  = Livneh_station_249
 North Coordinate 249 = 5138968.512350
 East Coordinate 249 = 497597.937288
 Elevation 249 = 191.150000
-Station File 249 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.249
+Station File 249 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.249
 
 Station Name 250  = Livneh_station_250
 North Coordinate 250 = 5132080.850260
 East Coordinate 250 = 473547.157509
 Elevation 250 = 333.520000
-Station File 250 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.250
+Station File 250 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.250
 
 Station Name 251  = Livneh_station_251
 North Coordinate 251 = 5132061.871130
 East Coordinate 251 = 478356.763288
 Elevation 251 = 374.220000
-Station File 251 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.251
+Station File 251 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.251
 
 Station Name 252  = Livneh_station_252
 North Coordinate 252 = 5132046.687870
 East Coordinate 252 = 483166.370235
 Elevation 252 = 388.500000
-Station File 252 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.252
+Station File 252 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.252
 
 Station Name 253  = Livneh_station_253
 North Coordinate 253 = 5132035.300450
 East Coordinate 253 = 487975.978091
 Elevation 253 = 376.030000
-Station File 253 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.253
+Station File 253 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.253
 
 Station Name 254  = Livneh_station_254
 North Coordinate 254 = 5132027.708860
 East Coordinate 254 = 492785.586595
 Elevation 254 = 336.800000
-Station File 254 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.254
+Station File 254 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.254
 
 Station Name 255  = Livneh_station_255
 North Coordinate 255 = 5132023.913060
 East Coordinate 255 = 497595.195488
 Elevation 255 = 267.350000
-Station File 255 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.255
+Station File 255 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.255
 
 Station Name 256  = Livneh_station_256
 North Coordinate 256 = 5125102.167880
 East Coordinate 256 = 483147.197731
 Elevation 256 = 298.050000
-Station File 256 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.256
+Station File 256 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.256
 
 Station Name 257  = Livneh_station_257
 North Coordinate 257 = 5125090.779370
 East Coordinate 257 = 487962.283475
 Elevation 257 = 304.300000
-Station File 257 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_data_from_Livneh/dhsvm_met_1915_2011/chehalis.Livneh.stn.257
+Station File 257 = /nfs/juniper/raid/ymao/dhsvm_chehalis/DHSVM_met_station/dhsvm_met_1915_2011/chehalis.Livneh.stn.257
 
 ################ MM5 ###########################################################
 # The following block only needs to be filled out if MM5 = TRUE.  In that case

@@ -35,7 +35,7 @@ Sediment Input File  =			# path for sediment configuration file
 Overland Routing     = CONVENTIONAL	# CONVENTIONAL or KINEMATIC
 Infiltration	       = STATIC		# Static or Dynamic
 Interpolation        = VARCRESS           # NEAREST or INVDIST or VARCRESS
-MM5                  = FALSE		  # TRUE or FALSE
+MM5                  = TRUE		  # TRUE or FALSE
 QPF                  = FALSE              # TRUE or FALSE
 PRISM                = FALSE              # TRUE or FALSE
 PRISM data path      = #/home/disk/tahoma/hydrort/system_2006/run_dhsvm/basin_data/chehalis/
@@ -45,12 +45,12 @@ Shading              = TRUE   	          # TRUE or FALSE
 Shading data path    = /usr1/ymao/dhsvm_chehalis/dhsvm_run/input/Shadow
 Shading data extension = bin             # file extension for shading files 
 Skyview data path    = /usr1/ymao/dhsvm_chehalis/dhsvm_run/input/SkyView.bin
-Snotel               = FALSE               # TRUE or FALSE
+Snotel               = TRUE               # TRUE or FALSE
 Outside              = FALSE	          # TRUE or FALSE
 Rhoverride           = FALSE              # TRUE or FALSE
 Precipitation Source = STATION            # STATION or RADAR
 Wind Source          = STATION            # STATION or MODEL
-Temperature lapse rate = CONSTANT         # CONSTANT or VARIABLE
+Temperature lapse rate = VARIABLE         # CONSTANT or VARIABLE
 Precipitation lapse rate = CONSTANT       # CONSTANT, MAP, or VARIABLE
 Cressman radius      = 10                 # in model pixels
 Cressman stations    =  4                 # number of stations
@@ -78,8 +78,8 @@ Point East           =                    # East coordinate for point modelif Ex
 ################################################################################
 [TIME]                                    # Model period
 Time Step            = 3          # Model time step (hours)
-Model Start          = 01/01/1990-00 # Model start time (MM/DD/YYYY-HH)
-Model End            = 12/31/2011-21  # Model end time (MM/DD/YYYY-HH)
+Model Start          = 04/03/2013-09 # Model start time (MM/DD/YYYY-HH)
+Model End            = 04/06/2013-09  # Model end time (MM/DD/YYYY-HH)
 
 ################################################################################
 # CONSTANTS SECTION
@@ -141,31 +141,34 @@ Unit Hydrograph File =                    # path for unit hydrograph file
 # METEOROLOGY SECTION 
 ################################################################################
 [METEOROLOGY]                             # Meteorological stations
-Number of Stations = 257                   # Number of meteorological stations
+Number of Stations =                   # Number of meteorological stations
 
-
-
+Station Name 1  = 
+North Coordinate 1 = 
+East Coordinate 1 = 
+Elevation 1 = 
+Station File 1 = 
 
 ################ MM5 ###########################################################
 # The following block only needs to be filled out if MM5 = TRUE.  In that case
 # This is the ONLY block that needs to be filled out
 
-MM5 Start              =    #04/03/2013-00 # Start of MM5 fields file (MM/DD/YYYY-HH),
-MM5 Rows               = 
-MM5 Cols               = 
-MM5 Extreme North      = 
-MM5 Extreme West       = 
-MM5 DY                 = 
+MM5 Start              = 04/03/2013-06   #04/03/2013-00 # Start of MM5 fields file (MM/DD/YYYY-HH),
+MM5 Rows               = 1000  #918
+MM5 Cols               = 1000     #736
+MM5 Extreme North      = 5267295
+MM5 Extreme West       = 434265
+MM5 DY                 = 150
 
 # MM5 met files
-MM5 Temperature File   = 
-MM5 Humidity File      = 
-MM5 Wind Speed File    = 
-MM5 Shortwave File     = 
-MM5 Longwave File      = 
-MM5 Precipitation File =
-MM5 Terrain File       = 
-MM5 Temp Lapse File    = 
+MM5 Temperature File   = /usr1/ymao/dhsvm_chehalis/dhsvm_run/met/temp.2013040300
+MM5 Humidity File      = /usr1/ymao/dhsvm_chehalis/dhsvm_run/met/hum.2013040300
+MM5 Wind Speed File    = /usr1/ymao/dhsvm_chehalis/dhsvm_run/met/wsp.2013040300
+MM5 Shortwave File     = /usr1/ymao/dhsvm_chehalis/dhsvm_run/met/sw.2013040300
+MM5 Longwave File      = /usr1/ymao/dhsvm_chehalis/dhsvm_run/met/lw.2013040300
+MM5 Precipitation File = /usr1/ymao/dhsvm_chehalis/dhsvm_run/met/prec.2013040300
+MM5 Terrain File       = /usr1/ymao/dhsvm_chehalis/dhsvm_run/met/elev.2013040300
+MM5 Temp Lapse File    = /usr1/ymao/dhsvm_chehalis/dhsvm_run/met/lpse.2013040300
 
 # For each soil layer make a key-entry pair as below (n = 1, ..,
 # Number of Soil Layers)
@@ -1294,8 +1297,8 @@ Understory Root Fraction 21 =  0.40 0.60 0.00
 # MODEL OUTPUT SECTION
 ################################################################################
 [OUTPUT]                                  # Information what to output when
-Output Directory           = /usr1/ymao/dhsvm_chehalis/dhsvm_run/output/RTd3/
-Initial State Directory    = /usr1/ymao/dhsvm_chehalis/dhsvm_run/modelstate/RTd3/
+Output Directory           = /usr1/ymao/dhsvm_chehalis/dhsvm_run/output/test/
+Initial State Directory    = /usr1/ymao/dhsvm_chehalis/dhsvm_run/modelstate/test/
 
 ################ PIXEL DUMPS ###################################################
 

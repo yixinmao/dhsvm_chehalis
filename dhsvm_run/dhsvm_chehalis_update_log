@@ -21,3 +21,7 @@
 	3. Update saved river segments (in './input/new.network')
 	4. Output maps for soil moisture, SWE and total ET
 	5. Change output dir of V2.1 to ./output/RTd3_v2.1, so that old and new versions can be run together
+
+06/23/2014
+	1. Change met data directory name in config file
+
