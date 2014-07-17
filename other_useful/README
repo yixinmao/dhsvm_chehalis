@@ -1,5 +1,6 @@
-swap.c
+swap [dir]
 	swap binary file; from Xiaodong Chen
 
-
+generate_radar_level3_forcing [dir]
+	generate DHSVM-format forcing from Langley Hill level 3 radar data
 
