@@ -1,0 +1,19 @@
+results_20140625_v3.1.2_modify_interp
+	Running v3.1.2 model with modified VARCRESS interpolation code;
+	2006-2011;
+	Using the initial state of 2014-01-01 from ATM as the running initial state
+
+results_20140708_1915-2011
+	running the model from 1915-2011 (the period of currently available Livneh's forcing)
+	Still using the initial state of 2014-01-01 from ATM as the running initial state
+
+results_20140709_1990-2011
+	running the model from 1990-2011
+	Still using the initial state of 2014-01-01 from ATM as the running initial state
+
+results_20140712_1990-2013
+	using Livneh's updated forcing (updated index stations)
+	Still using the initial state of 2014-01-01 from ATM as the running initial state
+
+
+
